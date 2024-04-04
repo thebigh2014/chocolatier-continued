@@ -1,0 +1,72 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
+			"Entries":
+			{
+				"ChocolatierContinued_ChocolatierCocoaPowder":
+				{
+					"Id": "ChocolatierContinued_ChocolatierCocoaPowder",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)Cornucopia_CocoaPod",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+						}
+					],
+					"MinutesUntilReady": 180
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Dehydrator", "OutputRules" ],
+			"Entries":
+			{
+				"ChocolatierContinued_PowderedMilk_LargeMilk":
+				{
+					"Id": "ChocolatierContinued_PowderedMilk_LargeMilk",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)186",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_PowderedMilk",
+						}
+					],
+					"MinutesUntilReady": 2160
+				},
+				"ChocolatierContinued_PowderedMilk_LargeGoatMilk":
+				{
+					"Id": "ChocolatierContinued_PowderedMilk_LargeGoatMilk",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)438",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_PowderedMilk",
+						}
+					],
+					"MinutesUntilReady": 2160
+				}
+			}
+		}
+    ]
+}

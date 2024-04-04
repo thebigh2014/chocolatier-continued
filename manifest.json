@@ -1,0 +1,23 @@
+{
+	"Name": "Chocolatier Continued",
+	"Author": "The Big H",
+	"Description": "A mod that adds chocolate ingredients, production, and artisan goods to Stardew Valley 1.6 via Content Patcher",
+	"Version": "0.0.1",
+	"MinimumApiVersion": "4.0.0",
+	"UniqueID": "TheBigH.ChocolatierContinued",
+	/*"UpdateKeys": ["Nexus:"],*/
+	"ContentPackFor":
+	{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "Cornucopia.MoreCrops",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "Cornucopia.ArtisanMachines",
+			"IsRequired": true
+		}
+	]
+}

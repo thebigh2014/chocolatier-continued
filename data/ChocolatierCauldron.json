@@ -1,0 +1,30 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+			{
+				"(BC)ChocolatierContinued_ChocolatierCauldron": 
+				{
+					"OutputRules": null,
+					"LoadEffects":
+					[
+						{
+							"Sounds": 
+							[
+								{
+									"Id": "Ship"
+								},
+							],
+						}
+					],
+					"WobbleWhileWorking": true,
+					"ShowNextIndexWhileWorking": true,
+					"ShowNextIndexWhenReady": true
+				}
+			}
+		},
+	]
+}

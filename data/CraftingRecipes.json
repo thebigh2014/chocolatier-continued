@@ -1,0 +1,12 @@
+{
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"ChocolatierContinued_ChocolatierCauldron": "336 5 768 1 334 5/Home/ChocolatierContinued_ChocolatierCauldron/true/default"
+			}
+		},
+    ]
+}

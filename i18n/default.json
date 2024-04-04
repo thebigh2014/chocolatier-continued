@@ -1,0 +1,11 @@
+{
+	/* Machines */
+	"ChocolatierCauldron_name": "Chocolatier's Cauldron",
+	"ChocolatierCauldron_description": "A large golden cauldron used to create the finest of chocolate.",
+
+	/* Objects */
+	"ChocolatierCocoaPowder_name": "Chocolatier Cocoa Powder",
+	"ChocolatierCocoaPowder_description": "Cocoa powder made primarily from cocoa solids.",
+	"PowderedMilk_name": "Powdered Milk",
+	"PowderedMilk_description": "Dried milk made by evaporating regular dairy milk.",
+}
