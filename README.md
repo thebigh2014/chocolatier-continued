@@ -17,9 +17,9 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 ### From Chocolatier 1.x
 
-- ✏️ Cocoa Butter *(in Cornucopia)*, Cocoa Powder, Powdered Milk, Vanilla Extract *(in Cornucopia)*
-- 📋 Chocolatier's Cauldron
-- 📋 Base Chocolate Types: Milk, Dark, & White
+- ✏️ Cocoa Butter *(in Cornucopia)*, Cocoa Powder, Powdered Milk, Vanilla Extract
+- ✅ Chocolatier's Cauldron
+- ✏️ Base Chocolate Types: Milk, Dark, & White
 - 📋 Bonbons (heart shaped chocolates)
 - 📋 Peanut Butter Cups, Coins, Turtles, Fudge
 - 📋 Covered Pretzels and Fruits
@@ -43,6 +43,10 @@ I do plan on this mod being cross-compatible with other mods, including making u
 ## For Mod Authors
 
 *(coming soon)*
+
+## Permissions & Legal Stuff
+
+Please see the [Software License](https://github.com/thebigh2014/chocolatier-continued?tab=License-1-ov-file)
 
 ## Credits & Thanks
 
