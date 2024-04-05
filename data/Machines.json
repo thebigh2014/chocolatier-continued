@@ -4,6 +4,35 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_Alembic", "OutputRules" ],
+			"Entries":
+			{
+				"ChocolatierContinued_VanillaExtract":
+				{
+					"Id": "ChocolatierContinued_VanillaExtract",
+					"Triggers": 
+					[
+						{
+							"RequiredItemId": "(O)Cornucopia_Vanilla",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_VanillaExtract",
+						}
+					],
+					"MinutesUntilReady": 360,
+				},
+			},
+			"MoveEntries":
+			[
+				{ "Id": "ChocolatierContinued_VanillaExtract", "BeforeId": "Cornucopia_EssentialOil" }
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
 			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
 			"Entries":
 			{

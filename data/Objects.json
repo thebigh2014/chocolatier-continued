@@ -36,6 +36,21 @@
 						"color_white"
 					]
 				},
+				"ChocolatierContinued_VanillaExtract": {
+					"Name": "ChocolatierContinued_VanillaExtract",
+					"Category": -26,
+					"DisplayName": "{{i18n:VanillaExtract_name}}",
+					"Description": "{{i18n:VanillaExtract_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 2,
+					"Price": 300,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_brown",
+						"dye_strong"
+					]
+				},
 			}
 		}
 	]
