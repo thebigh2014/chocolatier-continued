@@ -17,7 +17,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 ### From Chocolatier 1.x
 
-- ✏️ Cocoa Butter *(in Cornucopia)*, Cocoa Powder, Powdered Milk, Vanilla Extract
+- ✅ Cocoa Butter *(in Cornucopia)*, Cocoa Powder, Powdered Milk, Vanilla Extract
 - ✅ Chocolatier's Cauldron
 - ✏️ Base Chocolate Types: Milk, Dark, & White
 - 📋 Bonbons (heart shaped chocolates)
@@ -27,8 +27,8 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 ### Planned Additions
 
-- 📋 Truffle Powder
-- 📋 Bittersweet and Semi-sweet Chocolate (for cooking/baking recipes)
+- ✅ Truffle Powder
+- 📋 Semi-sweet Chocolate (for cooking/baking recipes)
 - 📋 Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the ingredient for all covered items)
 - 📋 Bars (flat, rectangular chocolates)
 - 📋 Infusions (varyingly shaped chocolates infused with various ingredients)
