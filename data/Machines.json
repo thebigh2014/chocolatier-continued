@@ -51,7 +51,24 @@
 							"ItemId": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
 						}
 					],
-					"MinutesUntilReady": 180
+					"MinutesUntilReady": 240
+				},
+				"ChocolatierContinued_TrufflePowder":
+				{
+					"Id": "ChocolatierContinued_TrufflePowder",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)430",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_TrufflePowder",
+						}
+					],
+					"MinutesUntilReady": 240
 				}
 			}
 		},

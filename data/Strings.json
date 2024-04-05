@@ -1,3 +1,13 @@
 {
-	
+	"Changes":
+	[
+		{
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"Entries":
+			{
+				
+            }
+        }
+	]
 }

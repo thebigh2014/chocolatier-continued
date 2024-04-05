@@ -7,7 +7,9 @@
 	"ChocolatierCocoaPowder_name": "Chocolatier Cocoa Powder",
 	"ChocolatierCocoaPowder_description": "Cocoa powder made primarily from cocoa solids.",
 	"PowderedMilk_name": "Powdered Milk",
-	"PowderedMilk_description": "Dried milk made by evaporating regular dairy milk.",
+	"PowderedMilk_description": "Dried milk made by evaporating a large dairy milk.",
+	"TrufflePowder_name": "Truffle Powder",
+	"TrufflePowder_description": "Truffle powder made by pulverizing the entirety of a truffle.",
 	"VanillaExtract_name": "Vanilla Extract",
 	"VanillaExtract_description": "Commonly used in baking, it imparts a rich vanilla flavor.",
 }
