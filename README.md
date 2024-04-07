@@ -12,6 +12,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - Content Patcher 2.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/1915))
 - Cornucopia - More Crops ([Nexus](https://www.nexusmods.com/stardewvalley/mods/19508))
 - Cornucopia - Artisan Machines *(coming soon)*
+- Cornucopia - Cooking Recipes *(coming soon)*
 
 ## So&hellip; What's included?
 
@@ -19,20 +20,22 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 - ✅ Cocoa Butter *(in Cornucopia)*, Cocoa Powder, Powdered Milk, Vanilla Extract
 - ✅ Chocolatier's Cauldron
-- ✏️ Base Chocolate Types: Milk, Dark, & White
+- ✏️ Base Chocolate Types: Milk, Semi-Sweet *(formerly dark)*, & White
 - 📋 Bonbons (heart shaped chocolates)
 - 📋 Peanut Butter Cups, Coins, Turtles, Fudge
 - 📋 Covered Pretzels and Fruits
 - 📋 Boxes of Chocolates
 
+*The above items will __all__ be included in the initial release as well as anything finished from below.*
+
 ### Planned Additions
 
 - ✅ Truffle Powder
-- 📋 Semi-sweet Chocolate (for cooking/baking recipes)
-- 📋 Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the ingredient for all covered items)
+- ✏️ Base Chocolate Type: Bittersweet Chocolate (>60% Cocoa)
+- ✏️ Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the ingredient for all covered items)
 - 📋 Bars (flat, rectangular chocolates)
 - 📋 Infusions (varyingly shaped chocolates infused with various ingredients)
-- 📋 Truffles (spherical chocolates made using truffle oil and/or powder)
+- 📋 Truffles (decadent spherical chocolates made using truffle powder and/or oil)
 - 📋 Sauces (somewhat akin to nut butters but featuring chocolate)
 - 📋 More varieties of the previous mod's products
 
