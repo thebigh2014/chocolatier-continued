@@ -21,6 +21,21 @@
 						"color_brown"
 					]
 				},
+				"ChocolatierContinued_MatchaPowder":
+				{
+					"Name": "ChocolatierContinued_MatchaPowder",
+					"Category": -26,
+					"DisplayName": "{{i18n:MatchaPowder_name}}",
+					"Description": "{{i18n:MatchaPowder_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 4,
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_green"
+					]
+				},
 				"ChocolatierContinued_PowderedMilk":
 				{
 					"Name": "ChocolatierContinued_PowderedMilk",
@@ -29,7 +44,7 @@
 					"Description": "{{i18n:PowderedMilk_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 1,
-					"Price": 200,
+					"Price": 240,
 					"Edibility": -300,
 					"ContextTags":
 					[

@@ -53,6 +53,23 @@
 					],
 					"MinutesUntilReady": 240
 				},
+				"ChocolatierContinued_MatchaPowder":
+				{
+					"Id": "ChocolatierContinued_MatchaPowder",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)815",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_MatchaPowder",
+						}
+					],
+					"MinutesUntilReady": 240
+				},
 				"ChocolatierContinued_TrufflePowder":
 				{
 					"Id": "ChocolatierContinued_TrufflePowder",
@@ -69,7 +86,7 @@
 						}
 					],
 					"MinutesUntilReady": 240
-				}
+				},
 			}
 		},
 		{

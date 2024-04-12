@@ -6,6 +6,8 @@
 	/* Objects */
 	"ChocolatierCocoaPowder_name": "Chocolatier Cocoa Powder",
 	"ChocolatierCocoaPowder_description": "Cocoa powder made primarily from cocoa solids.",
+	"MatchaPowder_name": "Matcha Powder",
+	"MatchaPowder_description": "It contains a lot of antioxidants. When made fresh, it doesn't last for long.",
 	"PowderedMilk_name": "Powdered Milk",
 	"PowderedMilk_description": "Dried milk made by evaporating a large dairy milk.",
 	"TrufflePowder_name": "Truffle Powder",
