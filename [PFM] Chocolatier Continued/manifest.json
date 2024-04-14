@@ -4,7 +4,7 @@
 	"Description": "Adds producing rules for the Chocolatier's Cauldron.",
 	"Version": "0.0.1",
 	"UniqueID": "TheBigH.PFM_ChocolatierContinued",
-	"MinimumApiVersion": "3.0.0",
+	"MinimumApiVersion": "4.0.0",
 	/*"UpdateKeys": ["Nexus:"],*/
 	"ContentPackFor":
 	{
