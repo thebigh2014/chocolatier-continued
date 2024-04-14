@@ -1,0 +1,136 @@
+﻿[
+	/* Milk Chocolate */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
+		"InputIdentifier": "(O)ChocolatierContinued_PowderedMilk",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_CoconutOil": 1,
+			"(O)245": 1
+		},
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "(O)ChocolatierContinued_MilkChocolate",
+		"Sounds": [ "Ship" ],
+	},
+	/* Bittersweet Chocolate */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
+		"InputIdentifier": "(O)Cornucopia_SeaSalt",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+		"FuelStack": 2,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_CoconutOil": 1,
+			"(O)245": 1
+		},
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "(O)ChocolatierContinued_BittersweetChocolate",
+		"Sounds": [ "Ship" ],
+	},
+	/* Semi-Sweet Chocolate */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
+		"InputIdentifier": "(O)Cornucopia_CoconutOil",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_SeaSalt": 1,
+			"(O)245": 1
+		},
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "(O)ChocolatierContinued_SemiSweetChocolate",
+		"Sounds": [ "Ship" ],
+	},
+	/* White Chocolate */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
+		"InputIdentifier": "(O)ChocolatierContinued_VanillaExtract",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_PowderedMilk",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_CocoaButter": 1,
+			"(O)245": 1
+		},
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "(O)ChocolatierContinued_WhiteChocolate",
+		"Sounds": [ "Ship" ],
+	},
+	/* Couverture Milk Chocolate */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
+		"InputIdentifier": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)Cornucopia_CocoaButter",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_PowderedMilk": 1,
+			"(O)ChocolatierContinued_VanillaExtract": 1,
+			"(O)Cornucopia_CoconutOil": 1,
+			"(O)245": 1
+		},
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "(O)ChocolatierContinued_CouvertureMilkChocolate",
+		"Sounds": [ "Ship" ],
+	},
+	/* Couverture Bittersweet Chocolate */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
+		"InputIdentifier": "(O)245",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_VanillaExtract",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_ChocolatierCocoaPowder": 2,
+			"(O)Cornucopia_CocoaButter": 1,
+			"(O)Cornucopia_Salt": 1,
+			"(O)Cornucopia_CoconutOil": 1
+		},
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "(O)ChocolatierContinued_CouvertureBittersweetChocolate",
+		"Sounds": [ "Ship" ],
+	},
+	/* Couverture Semi-Sweet Chocolate */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
+		"InputIdentifier": "(O)Cornucopia_Salt",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_VanillaExtract": 1,
+			"(O)Cornucopia_CocoaButter": 1,
+			"(O)Cornucopia_CoconutOil": 1,
+			"(O)245": 1
+		},
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "(O)ChocolatierContinued_CouvertureSemiSweetChocolate",
+		"Sounds": [ "Ship" ],
+	},
+	/* Couverture White Chocolate */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
+		"InputIdentifier": "(O)Cornucopia_CocoaButter",
+		"InputStack": 2,
+		"FuelIdentifier": "(O)ChocolatierContinued_VanillaExtract",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_PowderedMilk": 1,
+			"(O)245": 1
+		},
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "(O)ChocolatierContinued_CouvertureWhiteChocolate",
+		"Sounds": [ "Ship" ],
+	},
+]

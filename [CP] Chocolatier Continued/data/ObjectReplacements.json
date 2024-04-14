@@ -2,6 +2,7 @@
 	"Changes":
 	[
 		{
+			"LogName": "Load Object Replacement Data",
 			"Action": "EditData",
 			"Target": "Data/CookingRecipes",
 			"Fields":

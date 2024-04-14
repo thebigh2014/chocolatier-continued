@@ -1,0 +1,33 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+			"LogName": "Load Sprites",
+			"Action": "Load",
+			"Target": "TheBigH.ChocolatierContinued/Objects, TheBigH.ChocolatierContinued/BigCraftables",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Load Data",
+			"Action": "Include",
+			"FromFile": "data/BigCraftables.json, data/CraftingRecipes.json, data/Machines.json, data/Objects.json"/*, data/ObjectReplacements.json, data/Strings.json"*/
+		},
+		{
+			"LogName": "Load Missing Sprites",
+			"Action": "Load",
+			"Target": "TheBigH.ChocolatierContinued/CCR_Objects",
+			"FromFile": "assets/{{TargetWithoutPath}}.png",
+			"When": {
+				"HasMod |contains=Cornucopia.CookingRecipes": false
+			}
+		},
+		{
+			"LogName": "Load Missing Data",
+			"Action": "Include",
+			"FromFile": "data/CCR_CookingRecipes.json, data/CCR_Objects.json",
+			"When": {
+				"HasMod |contains=Cornucopia.CookingRecipes": false
+			}
+		}
+	]
+}

@@ -2,13 +2,14 @@
 	"Changes":
 	[
 		{
+			"LogName": "Load Big Craftables",
 			"Action": "EditData",
 			"Target": "Data/BigCraftables",
 			"Entries":
 			{
 				"ChocolatierContinued_ChocolatierCauldron":
 				{
-					"Name": "ChocolatierContinued_ChocolatierCauldron",
+					"Name": "Chocolatier's Cauldron",
 					"DisplayName": "{{i18n:ChocolatierCauldron_name}}",
 					"Description": "{{i18n:ChocolatierCauldron_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/BigCraftables",

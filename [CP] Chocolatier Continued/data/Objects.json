@@ -1,0 +1,216 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "Load Object Data",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries":
+			{
+				/* Base Ingredients */
+				"ChocolatierContinued_ChocolatierCocoaPowder":
+				{
+					"Name": "Cocoa Powder",
+					"Category": -26,
+					"DisplayName": "{{i18n:CocoaPowder_name}}",
+					"Description": "{{i18n:CocoaPowder_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 0,
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_brown"
+					]
+				},
+				"ChocolatierContinued_MatchaPowder":
+				{
+					"Name": "Matcha Powder",
+					"Category": -26,
+					"DisplayName": "{{i18n:MatchaPowder_name}}",
+					"Description": "{{i18n:MatchaPowder_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 4,
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_green"
+					]
+				},
+				"ChocolatierContinued_PowderedMilk":
+				{
+					"Name": "Powdered Milk",
+					"Category": -26,
+					"DisplayName": "{{i18n:PowderedMilk_name}}",
+					"Description": "{{i18n:PowderedMilk_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 1,
+					"Price": 240,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_white"
+					]
+				},
+				"ChocolatierContinued_TrufflePowder":
+				{
+					"Name": "Truffle Powder",
+					"Category": -26,
+					"DisplayName": "{{i18n:TrufflePowder_name}}",
+					"Description": "{{i18n:TrufflePowder_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 3,
+					"Price": 900,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_salmon"
+					]
+				},
+				"ChocolatierContinued_VanillaExtract": {
+					"Name": "Vanilla Extract",
+					"Category": -26,
+					"DisplayName": "{{i18n:VanillaExtract_name}}",
+					"Description": "{{i18n:VanillaExtract_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 2,
+					"Price": 250,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_brown",
+						"dye_strong"
+					]
+				},
+				/* Base Chocolate Types */
+				"ChocolatierContinued_MilkChocolate":
+				{
+					"Name": "Chocolatier Milk Chocolate",
+					"Category": -26,
+					"DisplayName": "{{i18n:MilkChocolate_name}}",
+					"Description": "{{i18n:MilkChocolate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 5,
+					"Price": 815,
+					"Edibility": 7,
+					"ContextTags":
+					[
+						"color_brown",
+						"dye_medium"
+					]
+				},
+				"ChocolatierContinued_BittersweetChocolate":
+				{
+					"Name": "Chocolatier Bittersweet Chocolate",
+					"Category": -26,
+					"DisplayName": "{{i18n:BittersweetChocolate_name}}",
+					"Description": "{{i18n:BittersweetChocolate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 6,
+					"Price": 975,
+					"Edibility": 7,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"dye_strong"
+					]
+				},
+				"ChocolatierContinued_SemiSweetChocolate":
+				{
+					"Name": "Chocolatier Semi-Sweet Chocolate",
+					"Category": -26,
+					"DisplayName": "{{i18n:SemiSweetChocolate_name}}",
+					"Description": "{{i18n:SemiSweetChocolate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 7,
+					"Price": 670,
+					"Edibility": 7,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"dye_medium"
+					]
+				},
+				"ChocolatierContinued_WhiteChocolate":
+				{
+					"Name": "Chocolatier White Chocolate",
+					"Category": -26,
+					"DisplayName": "{{i18n:WhiteChocolate_name}}",
+					"Description": "{{i18n:WhiteChocolate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 8,
+					"Price": 830,
+					"Edibility": 7,
+					"ContextTags":
+					[
+						"color_white"
+					]
+				},
+				"ChocolatierContinued_CouvertureMilkChocolate":
+				{
+					"Name": "Chocolatier Couverture Milk Chocolate",
+					"Category": -26,
+					"DisplayName": "{{i18n:CouvertureMilkChocolate_name}}",
+					"Description": "{{i18n:CouvertureMilkChocolate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 9,
+					"Price": 1360,
+					"Edibility": 7,
+					"ContextTags":
+					[
+						"color_brown",
+						"dye_medium"
+					]
+				},
+				"ChocolatierContinued_CouvertureBittersweetChocolate":
+				{
+					"Name": "Chocolatier Couverture Bittersweet Chocolate",
+					"Category": -26,
+					"DisplayName": "{{i18n:CouvertureBittersweetChocolate_name}}",
+					"Description": "{{i18n:CouvertureBittersweetChocolate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 10,
+					"Price": 1575,
+					"Edibility": 7,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"dye_strong"
+					]
+				},
+				"ChocolatierContinued_CouvertureSemiSweetChocolate":
+				{
+					"Name": "Chocolatier Couverture Semi-Sweet Chocolate",
+					"Category": -26,
+					"DisplayName": "{{i18n:CouvertureSemiSweetChocolate_name}}",
+					"Description": "{{i18n:CouvertureSemiSweetChocolate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 11,
+					"Price": 1300,
+					"Edibility": 7,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"dye_medium"
+					]
+				},
+				"ChocolatierContinued_CouvertureWhiteChocolate":
+				{
+					"Name": "Chocolatier Couverture White Chocolate",
+					"Category": -26,
+					"DisplayName": "{{i18n:CouvertureWhiteChocolate_name}}",
+					"Description": "{{i18n:CouvertureWhiteChocolate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 12,
+					"Price": 1140,
+					"Edibility": 7,
+					"ContextTags":
+					[
+						"color_white"
+					]
+				},
+			}
+		}
+	]
+}

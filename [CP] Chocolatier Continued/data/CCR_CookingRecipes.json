@@ -1,0 +1,68 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "Load Missing Cooking Recipes",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Entries":
+			{
+				"Brown Sugar": "724 1 245 1/9999 9999/Cornucopia_BrownSugar/default/",
+				"Caramel": "245 2 -6 1/9999 9999/Cornucopia_Caramel/default/",
+				"Cream Cheese": "-6 1/9999 9999/Cornucopia_CreamCheese/null/",
+				"Graham Crackers": "246 1 245 1 340 1/9999 9999/Cornucopia_GrahamCrackers/null/",
+				"Marshmallow Fluff": "245 1 -5 1 ChocolatierContinued_VanillaExtract 1/9999 9999/Cornucopia_MarshmallowFluff/null/",
+				"Soft Pretzel": "246 1 Cornucopia_Salt 1/9999 9999/Cornucopia_SoftPretzel/null/"
+			}
+		},
+		{
+			"LogName": "Load Missing Shop Cooking Recipes",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Saloon", "Items" ],
+			"Entries":
+			{
+				"Cornucopia_CreamCheese":
+				{
+					"Id": "Cornucopia_CreamCheese (Recipe)",
+					"ItemId": "(O)Cornucopia_CreamCheese",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_GrahamCrackers":
+				{
+					"Id": "Cornucopia_GrahamCrackers (Recipe)",
+					"ItemId": "(O)Cornucopia_GrahamCrackers",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 1450,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_MarshmallowFluff":
+				{
+					"Id": "Cornucopia_MarshmallowFluff (Recipe)",
+					"ItemId": "(O)Cornucopia_MarshmallowFluff",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 750,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"Cornucopia_SoftPretzel":
+				{
+					"Id": "Cornucopia_SoftPretzel (Recipe)",
+					"ItemId": "(O)Cornucopia_SoftPretzel",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 650,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				}
+			}
+		}
+    ]
+}

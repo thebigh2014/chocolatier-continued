@@ -2,6 +2,7 @@
 	"Changes":
 	[
 		{
+			"LogName": "Load Strings",
 			"Action": "EditData",
 			"Target": "Strings/Objects",
 			"Entries":

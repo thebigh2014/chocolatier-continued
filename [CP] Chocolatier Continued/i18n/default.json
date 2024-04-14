@@ -1,0 +1,48 @@
+{
+	/* Machines */
+	"ChocolatierCauldron_name": "Chocolatier's Cauldron",
+	"ChocolatierCauldron_description": "A large golden cauldron used to create the finest of chocolate.",
+
+	/* Objects */
+	"CocoaPowder_name": "Cocoa Powder",
+	"CocoaPowder_description": "Cocoa powder made primarily from cocoa solids.",
+	"MatchaPowder_name": "Matcha Powder",
+	"MatchaPowder_description": "It contains a lot of antioxidants. When made fresh, it doesn't last for long.",
+	"PowderedMilk_name": "Powdered Milk",
+	"PowderedMilk_description": "Dried milk made by evaporating a large dairy milk.",
+	"TrufflePowder_name": "Truffle Powder",
+	"TrufflePowder_description": "Truffle powder made by pulverizing the entirety of a truffle.",
+	"VanillaExtract_name": "Vanilla Extract",
+	"VanillaExtract_description": "Commonly used in baking, it imparts a rich vanilla flavor.",
+
+	"MilkChocolate_name": "Milk Chocolate",
+	"MilkChocolate_description": "A sweet chocolate made with more milk than cocoa.",
+	"BittersweetChocolate_name": "Bittersweet Chocolate",
+	"BittersweetChocolate_description": "A bittersweet chocolate made with much more cocoa than milk.",
+	"SemiSweetChocolate_name": "Semi-sweet Chocolate",
+	"SemiSweetChocolate_description": "A semi-sweet chocolate made with more cocoa than milk.",
+	"WhiteChocolate_name": "White Chocolate",
+	"WhiteChocolate_description": "A sweet chocolate made with cocoa butter and milk.",
+	"CouvertureMilkChocolate_name": "Candy Coating Milk Chocolate",
+	"CouvertureMilkChocolate_description": "A sweet chocolate coating made with more milk than cocoa.",
+	"CouvertureBittersweetChocolate_name": "Candy Coating Bittersweet Chocolate",
+	"CouvertureBittersweetChocolate_description": "A bittersweet chocolate coating made with much more cocoa than milk.",
+	"CouvertureSemiSweetChocolate_name": "Candy Coating Semi-sweet Chocolate",
+	"CouvertureSemiSweetChocolate_description": "A semi-sweet chocolate coating made with more cocoa than milk.",
+	"CouvertureWhiteChocolate_name": "Candy Coating White Chocolate",
+	"CouvertureWhiteChocolate_description": "A sweet chocolate coating made with cocoa butter and milk.",
+
+	/* CCR Objects */
+	"BrownSugar_name": "Brown Sugar",
+	"BrownSugar_description": "It's plain sugar mixed with molasses.",
+	"Caramel_name": "Caramel",
+	"Caramel_description": "Buttery and sweet, it's commonly used in candies and treats.",
+	"CreamCheese_name": "Cream Cheese",
+	"CreamCheese_description": "Creamed milk. A common topping and filling product.",
+	"GrahamCrackers_name": "Graham Crackers",
+	"GrahamCrackers_description": "They're sweet, flavored crackers. A common base for many desserts.",
+	"MarshmallowFluff_name": "Marshmallow Fluff",
+	"MarshmallowFluff_description": "It's light and fluffy!",
+	"SoftPretzel_name": "Soft Pretzel",
+	"SoftPretzel_description": "A classic, lightly salted snack.",
+}

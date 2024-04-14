@@ -2,6 +2,7 @@
 	"Changes":
 	[
 		{
+			"LogName": "Load Updated Machines",
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)Cornucopia_Alembic", "OutputRules" ],
@@ -31,6 +32,7 @@
 			]
 		},
 		{
+			"LogName": "Load Updated Machines",
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
@@ -90,6 +92,7 @@
 			}
 		},
 		{
+			"LogName": "Load Updated Machines",
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)Dehydrator", "OutputRules" ],

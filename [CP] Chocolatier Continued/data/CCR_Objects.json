@@ -1,0 +1,110 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "Load Missing Object Data",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries":
+			{
+				"Cornucopia_BrownSugar":
+				{
+					"Name": "Brown Sugar",
+					"Category": -7,
+					"DisplayName": "{{i18n:BrownSugar_name}}",
+					"Description": "{{i18n:BrownSugar_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/CCR_Objects",
+					"SpriteIndex": 0,
+					"Price": 400,
+					"Edibility": 38,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"Cornucopia_Caramel":
+				{
+					"Name": "Caramel",
+					"Category": -7,
+					"DisplayName": "{{i18n:Caramel_name}}",
+					"Description": "{{i18n:Caramel_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/CCR_Objects",
+					"SpriteIndex": 1,
+					"Price": 450,
+					"Edibility": 66,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_bakery",
+						"food_sweet"
+					]
+				},
+				"Cornucopia_CreamCheese":
+				{
+					"Name": "Cream Cheese",
+					"Category": -7,
+					"DisplayName": "{{i18n:CreamCheese_name}}",
+					"Description": "{{i18n:CreamCheese_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/CCR_Objects",
+					"SpriteIndex": 2,
+					"Price": 150,
+					"Edibility": 22,
+					"ContextTags":
+					[
+						"color_sand"
+					]
+				},
+				"Cornucopia_GrahamCrackers":
+				{
+					"Name": "Graham Crackers",
+					"Category": -7,
+					"DisplayName": "{{i18n:GrahamCrackers_name}}",
+					"Description": "{{i18n:GrahamCrackers_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/CCR_Objects",
+					"SpriteIndex": 3,
+					"Price": 450,
+					"Edibility": 22,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_bakery",
+						"food_sweet"
+					]
+				},
+				"Cornucopia_MarshmallowFluff":
+				{
+					"Name": "Marshmallow Fluff",
+					"Category": -7,
+					"DisplayName": "{{i18n:MarshmallowFluff_name}}",
+					"Description": "{{i18n:MarshmallowFluff_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/CCR_Objects",
+					"SpriteIndex": 4,
+					"Price": 500,
+					"Edibility": 5,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+				"Cornucopia_SoftPretzel":
+				{
+					"Name": "Soft Pretzel",
+					"Category": -7,
+					"DisplayName": "{{i18n:SoftPretzel_name}}",
+					"Description": "{{i18n:SoftPretzel_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/CCR_Objects",
+					"SpriteIndex": 5,
+					"Price": 275,
+					"Edibility": 10,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_bakery"
+					]
+				}
+			}
+		}
+	]
+}
