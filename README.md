@@ -2,7 +2,7 @@
 
 ## About
 
-This is a continuation/re-imagining of [Ritsunesan](https://www.nexusmods.com/stardewvalley/users/40687890)'s [Chocolatier](https://www.nexusmods.com/stardewvalley/mods/5403) mod built from the ground up for **Stardew Valley 1.6** using **Content Patcher**, **Producer Framework Mod**, and relying on the [Cornucopia Team's](https://github.com/MizuJakkaru/Cornucopia/?tab=readme-ov-file#cornucopia-team) **Cornucopia mods** for the necessary prerequisites.
+This is a continuation/re-imagining of [Ritsunesan](https://www.nexusmods.com/stardewvalley/users/40687890)'s [Chocolatier](https://www.nexusmods.com/stardewvalley/mods/5403) mod rebuilt for **Stardew Valley 1.6** using **Content Patcher**, **Producer Framework Mod**, and relying on the [Cornucopia Team's](https://github.com/MizuJakkaru/Cornucopia/?tab=readme-ov-file#cornucopia-team) **Cornucopia mods** for the necessary prerequisites.
 
 I do plan on this mod being cross-compatible with other mods, including making use of ingredients those mods add to the game if possible.
 
