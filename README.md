@@ -23,7 +23,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - ✅ Chocolatier's Cauldron (machine)
 - ✅ Base Chocolate Types: Milk, Semi-Sweet *(formerly dark)*, & White
 - ✏️ Bonbons (heart shaped chocolates; perfect for Valentine's)
-- 📋 Peanut Butter Cups, Coins, Turtles, Fudge *(as cooking recipes)*
+- ✏️ Peanut Butter Cups, Coins, Turtles, Fudge *(as cooking recipes)*
 - 📋 Covered Pretzels and Fruits *(as cooking recipes)*
 - 📋 Boxes of Chocolates *(as crafting recipes)*
 
@@ -42,9 +42,9 @@ The simple answer is that it makes things a lot easier for everyone. Using a sin
 - 📋 Bars (flat, rectangular chocolates)
 - 📋 Infusions (varyingly shaped chocolates infused with various ingredients)
 - 📋 Truffles (decadent spherical chocolates made using truffle powder and/or oil; *will use Extruder, if possible, otherwise a new machine might be needed*)
-- 📋 Sauces (somewhat akin to nut butters but featuring chocolate; *will use Butter Churn, if possible, otherwise a new machine might be needed*)
-- 📋 Mousse Cups (soft and airy prepared chocolates)
-- 📋 Chocolate and Caramel Eggs (bags of delicate small and large eggs; perfect for Easter)
+- 📋 Sauces (somewhat akin to nut butters but featuring chocolate; *as cooking recipes*)
+- 📋 Mousse Cups (soft and airy prepared chocolates; *as cooking recipes*)
+- 📋 Chocolate and Caramel Eggs (bags of delicate small and large eggs; perfect for Easter; *as cooking recipes*)
 - 📋 More varieties of the previous mod's products
 
 #### 📍 So&hellip; Why More Machines?
