@@ -38,10 +38,10 @@ The simple answer is that it makes things a lot easier for everyone. Using a sin
 - ✅ Truffle Powder
 - ✅ Base Chocolate Type: Bittersweet Chocolate (>60% Cocoa)
 - ✅ Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the primary ingredient for all covered items)
-- ✏️ Bonbon Chocolate Press, Bar Chocolate Press, Chocolate Infuser (machines)
+- ✏️ Bonbon Chocolate Press, Bar Chocolate Press, Chocolate Infuser, and Truffle Extruder (machines)
 - 📋 Bars (flat, rectangular chocolates)
 - 📋 Infusions (varyingly shaped chocolates infused with various ingredients)
-- 📋 Truffles (decadent spherical chocolates made using truffle powder and/or oil; *will use Extruder, if possible, otherwise a new machine might be needed*)
+- 📋 Truffles (decadent spherical chocolates made using truffle powder and/or oil)
 - 📋 Sauces (somewhat akin to nut butters but featuring chocolate; *as cooking recipes*)
 - 📋 Mousse Cups (soft and airy prepared chocolates; *as cooking recipes*)
 - 📋 Chocolate and Caramel Eggs (bags of delicate small and large eggs; perfect for Easter; *as cooking recipes*)
