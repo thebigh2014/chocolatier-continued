@@ -21,14 +21,10 @@ cd "Chocolatier Continued";
 
 cp -R ../../\[* ./;
 
-cp ../../LICENSE ../../README.md ./\[CP*/;
-cp ../../LICENSE ../../README.md ./\[PFM*/;
+cp ../../LICENSE ../../README.md ../../CREDITS.md ./\[CP*/;
+cp ../../LICENSE ../../README.md ../../CREDITS.md ./\[PFM*/;
 
-cd \[CP*/assets;
-
-rm *.psd
-
-cd ../../../;
+cd ../;
 
 if [ -f "Chocolatier Continued.zip" ]; then
 	echo "> Removing Existing Release Archive...";
