@@ -24,7 +24,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - ✅ Base Chocolate Types: Milk, Semi-Sweet *(formerly dark)*, & White
 - ✏️ Bonbons (heart shaped chocolates; perfect for Valentine's)
 - ✏️ Peanut Butter Cups, Coins, Turtles, Fudge *(as cooking recipes)*
-- 📋 Covered Pretzels and Fruits *(as cooking recipes)*
+- ✏️ Covered Pretzels and Fruits *(as cooking recipes)*
 - 📋 Boxes of Chocolates *(as crafting recipes)*
 
 *The above items will __all__ be included in the initial release as well as anything needed and/or finished from below.*
@@ -41,11 +41,13 @@ The simple answer is that it makes things a lot easier for everyone. Using a sin
 - ✏️ Bonbon Chocolate Press, Bar Chocolate Press, Chocolate Infuser, and Truffle Extruder (machines)
 - 📋 Bars (flat, rectangular chocolates)
 - 📋 Infusions (varyingly shaped chocolates infused with various ingredients)
-- 📋 Truffles (decadent spherical chocolates made using truffle powder and/or oil)
+- 📋 Truffles (decadent spherical chocolates made using truffle powder)
 - 📋 Sauces (somewhat akin to nut butters but featuring chocolate; *as cooking recipes*)
-- 📋 Mousse Cups (soft and airy prepared chocolates; *as cooking recipes*)
 - 📋 Chocolate and Caramel Eggs (bags of delicate small and large eggs; perfect for Easter; *as cooking recipes*)
+- 📋 Chocolate Drinks, including Hot Cocoa, Mochas, Milkshakes, etc.
+- 📋 Chocolate Desserts, including Mousse Cups, Cakes, Pies, etc.
 - 📋 More varieties of the previous mod's products
+- 📋 Optional configuration settings to replace vanilla cooking recipes
 
 #### 📍 So&hellip; Why More Machines?
 
