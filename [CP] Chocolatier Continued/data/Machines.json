@@ -133,6 +133,51 @@
 					"MinutesUntilReady": 2160
 				}
 			}
-		}
+		},
+		{
+			"LogName": "Load New Machines",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Entries": 
+			{
+				"(BC)ChocolatierContinued_ChocolatierCauldron": 
+				{
+					"OutputRules":
+					[
+						/* Dummy Output Rule to Validate Machine (needed for PFM Automate to Work Correctly) */
+						{
+							"Id": "ChocolatierContinued_RecursiveTrufflePowder",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)ChocolatierContinued_TrufflePowder",
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"ItemId": "(O)ChocolatierContinued_TrufflePowder",
+								}
+							],
+							"MinutesUntilReady": 40320
+						}
+					],
+					"LoadEffects":
+					[
+						{
+							"Sounds": 
+							[
+								{
+									"Id": "Ship"
+								},
+							],
+						}
+					],
+					"WobbleWhileWorking": true,
+					"ShowNextIndexWhileWorking": true,
+					"ShowNextIndexWhenReady": true
+				}
+			}
+		},
     ]
 }

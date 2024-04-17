@@ -14,7 +14,7 @@
 					"Description": "{{i18n:ChocolatierCauldron_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/BigCraftables",
 					"SpriteIndex": 0
-				}
+				},
 			}
 		}
 	]

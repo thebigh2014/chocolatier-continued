@@ -1,6 +1,7 @@
 {
 	"Format": "2.0.0",
-	"Changes": [
+	"Changes":
+	[
 		{
 			"LogName": "Load Sprites",
 			"Action": "Load",
@@ -17,7 +18,8 @@
 			"Action": "Load",
 			"Target": "TheBigH.ChocolatierContinued/CCR_Objects",
 			"FromFile": "assets/{{TargetWithoutPath}}.png",
-			"When": {
+			"When":
+			{
 				"HasMod |contains=Cornucopia.CookingRecipes": false
 			}
 		},
@@ -25,9 +27,10 @@
 			"LogName": "Load Missing Data",
 			"Action": "Include",
 			"FromFile": "data/CCR_CookingRecipes.json, data/CCR_Objects.json",
-			"When": {
+			"When":
+			{
 				"HasMod |contains=Cornucopia.CookingRecipes": false
 			}
-		}
+		},
 	]
 }
