@@ -14,6 +14,7 @@
 	[
 		{
 			"UniqueID": "TheBigH.ChocolatierContinued",
+			"MinimumVersion": "0.0.1",
 			"IsRequired": true
 		}
 	],

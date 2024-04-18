@@ -115,13 +115,14 @@
 					],
 					"MinutesUntilReady": 2160
 				},
-				"ChocolatierContinued_PowderedMilk_LargeGoatMilk":
+				"ChocolatierContinued_PowderedMilk_Milk":
 				{
-					"Id": "ChocolatierContinued_PowderedMilk_LargeGoatMilk",
+					"Id": "ChocolatierContinued_PowderedMilk_Milk",
 					"Triggers":
 					[
 						{
-							"RequiredItemId": "(O)438",
+							"RequiredItemId": "(O)184",
+							"RequiredCount": 2,
 						}
 					],
 					"OutputItem":
