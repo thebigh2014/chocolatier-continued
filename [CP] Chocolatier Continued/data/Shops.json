@@ -1,0 +1,369 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "Load Shop Cooking Recipes - Dwarf",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Dwarf", "Items" ],
+			"Entries":
+			{
+				"ChocolatierContinued_GoldMilkChocolateCoins":
+				{
+					"Id": "ChocolatierContinued_GoldMilkChocolateCoins (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_GoldMilkChocolateCoins",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 500,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_IridiumExtraDarkChocolateCoins":
+				{
+					"Id": "ChocolatierContinued_IridiumExtraDarkChocolateCoins (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_IridiumExtraDarkChocolateCoins",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 2000,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+		{
+			"LogName": "Load Shop Cooking Recipes - Raccoon",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Raccoon", "Items" ],
+			"Entries":
+			{
+				"ChocolatierContinued_DarkChocolateCoveredCherries":
+				{
+					"Id": "ChocolatierContinued_DarkChocolateCoveredCherries (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_DarkChocolateCoveredCherries",
+					"Condition": "WORLD_STATE_FIELD TimesFedRaccoons 2",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_MilkChocolateCoveredCherries":
+				{
+					"Id": "ChocolatierContinued_MilkChocolateCoveredCherries (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_MilkChocolateCoveredCherries",
+					"Condition": "WORLD_STATE_FIELD TimesFedRaccoons 2",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_ExtraDarkChocolateCoveredRaisins":
+				{
+					"Id": "ChocolatierContinued_ExtraDarkChocolateCoveredRaisins (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolateCoveredRaisins",
+					"Condition": "WORLD_STATE_FIELD TimesFedRaccoons 3",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 500,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_WhiteChocolateCoveredRaisins":
+				{
+					"Id": "ChocolatierContinued_WhiteChocolateCoveredRaisins (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_WhiteChocolateCoveredRaisins",
+					"Condition": "WORLD_STATE_FIELD TimesFedRaccoons 3",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 500,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+		{
+			"LogName": "Load Shop Cooking Recipes - Sandy",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Sandy", "Items" ],
+			"Entries":
+			{
+				"ChocolatierContinued_DarkChocolateCoveredStarfruit":
+				{
+					"Id": "ChocolatierContinued_DarkChocolateCoveredStarfruit (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_DarkChocolateCoveredStarfruit",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 500,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_ExtraDarkChocolateCoveredStarfruit":
+				{
+					"Id": "ChocolatierContinued_ExtraDarkChocolateCoveredStarfruit (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolateCoveredStarfruit",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 500,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_MilkChocolateCoveredStarfruit":
+				{
+					"Id": "ChocolatierContinued_MilkChocolateCoveredStarfruit (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_MilkChocolateCoveredStarfruit",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 500,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_WhiteChocolateCoveredStarfruit":
+				{
+					"Id": "ChocolatierContinued_WhiteChocolateCoveredStarfruit (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_WhiteChocolateCoveredStarfruit",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 500,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_DarkChocolateCoveredStrawberry":
+				{
+					"Id": "ChocolatierContinued_DarkChocolateCoveredStrawberry (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_DarkChocolateCoveredStrawberry",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_ExtraDarkChocolateCoveredStrawberry":
+				{
+					"Id": "ChocolatierContinued_ExtraDarkChocolateCoveredStrawberry (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolateCoveredStrawberry",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_MilkChocolateCoveredStrawberry":
+				{
+					"Id": "ChocolatierContinued_MilkChocolateCoveredStrawberry (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_MilkChocolateCoveredStrawberry",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_WhiteChocolateCoveredStrawberry":
+				{
+					"Id": "ChocolatierContinued_WhiteChocolateCoveredStrawberry (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_WhiteChocolateCoveredStrawberry",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+		{
+			"LogName": "Load Shop Cooking Recipes - Willy",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Entries":
+			{
+				"ChocolatierContinued_LeFisheAuChocolat":
+				{
+					"Id": "ChocolatierContinued_LeFisheAuChocolat (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_LeFisheAuChocolat",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 50,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+		{
+			"LogName": "Load Shop Cooking Recipes - Gus",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Saloon", "Items" ],
+			"Entries":
+			{
+				"ChocolatierContinued_ChocolateOrange":
+				{
+					"Id": "ChocolatierContinued_ChocolateOrange (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_ChocolateOrange",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 750,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_DarkChocolatePeanutButterCups":
+				{
+					"Id": "ChocolatierContinued_DarkChocolatePeanutButterCups (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_DarkChocolatePeanutButterCups",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_ExtraDarkChocolatePeanutButterCups":
+				{
+					"Id": "ChocolatierContinued_ExtraDarkChocolatePeanutButterCups (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolatePeanutButterCups",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_MilkChocolatePeanutButterCups":
+				{
+					"Id": "ChocolatierContinued_MilkChocolatePeanutButterCups (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_MilkChocolatePeanutButterCups",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_WhiteChocolatePeanutButterCups":
+				{
+					"Id": "ChocolatierContinued_WhiteChocolatePeanutButterCups (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_WhiteChocolatePeanutButterCups",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 250,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_DarkChocolateCoveredPretzel":
+				{
+					"Id": "ChocolatierContinued_DarkChocolateCoveredPretzel (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_DarkChocolateCoveredPretzel",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 200,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_ExtraDarkChocolateCoveredPretzel":
+				{
+					"Id": "ChocolatierContinued_ExtraDarkChocolateCoveredPretzel (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolateCoveredPretzel",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 200,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_MilkChocolateCoveredPretzel":
+				{
+					"Id": "ChocolatierContinued_MilkChocolateCoveredPretzel (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_MilkChocolateCoveredPretzel",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 200,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_WhiteChocolateCoveredPretzel":
+				{
+					"Id": "ChocolatierContinued_WhiteChocolateCoveredPretzel (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_WhiteChocolateCoveredPretzel",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 200,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+		{
+			"LogName": "Load Shop Cooking Recipes - Marnie",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "AnimalShop", "Items" ],
+			"Entries":
+			{
+				"ChocolatierContinued_MilkChocolateOrangeFudge":
+				{
+					"Id": "ChocolatierContinued_MilkChocolateOrangeFudge (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_MilkChocolateOrangeFudge",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 1000,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_WhiteChocolateCookiesNCremeFudge":
+				{
+					"Id": "ChocolatierContinued_WhiteChocolateCookiesNCremeFudge (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_WhiteChocolateCookiesNCremeFudge",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 1100,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+		{
+			"LogName": "Load Shop Cooking Recipes - CMC Extended Trees",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Saloon", "Items" ],
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+			},
+			"Entries":
+			{
+				"ChocolatierContinued_AssortedChocolateTurtles":
+				{
+					"Id": "ChocolatierContinued_AssortedChocolateTurtles (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_AssortedChocolateTurtles",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 1500,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+		{
+			"LogName": "Load Shop Cooking Recipes - CMC Herbs",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "AnimalShop", "Items" ],
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"Entries":
+			{
+				"ChocolatierContinued_DarkChocolateMintFudge":
+				{
+					"Id": "ChocolatierContinued_DarkChocolateMintFudge (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_DarkChocolateMintFudge",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 750,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+	]
+}

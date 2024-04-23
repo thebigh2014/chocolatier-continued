@@ -1,0 +1,19 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "Load Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Universal_Hate"],
+					"Value": "ChocolatierContinued_LeFisheAuChocolat",
+					"Delimiter": " "
+				}
+			]
+		},
+	]
+}

@@ -38,6 +38,21 @@
 						"color_green"
 					]
 				},
+				"ChocolatierContinued_OrangeOil": {
+					"Name": "Orange Oil",
+					"Category": -26,
+					"DisplayName": "{{i18n:OrangeOil_name}}",
+					"Description": "{{i18n:OrangeOil_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 13,
+					"Price": 200,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_orange",
+						"dye_strong"
+					]
+				},
 				"ChocolatierContinued_PowderedMilk":
 				{
 					"Name": "Powdered Milk",
@@ -92,8 +107,8 @@
 					"Description": "{{i18n:MilkChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 5,
-					"Price": 815,
-					"Edibility": 7,
+					"Price": 535,
+					"Edibility": 25,
 					"ContextTags":
 					[
 						"color_brown",
@@ -108,8 +123,8 @@
 					"Description": "{{i18n:BittersweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 6,
-					"Price": 975,
-					"Edibility": 7,
+					"Price": 550,
+					"Edibility": 25,
 					"ContextTags":
 					[
 						"color_dark_brown",
@@ -124,8 +139,8 @@
 					"Description": "{{i18n:SemiSweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 7,
-					"Price": 670,
-					"Edibility": 7,
+					"Price": 420,
+					"Edibility": 25,
 					"ContextTags":
 					[
 						"color_dark_brown",
@@ -140,8 +155,8 @@
 					"Description": "{{i18n:WhiteChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 8,
-					"Price": 830,
-					"Edibility": 7,
+					"Price": 540,
+					"Edibility": 25,
 					"ContextTags":
 					[
 						"color_white"
@@ -155,8 +170,8 @@
 					"Description": "{{i18n:CouvertureMilkChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 9,
-					"Price": 1360,
-					"Edibility": 7,
+					"Price": 850,
+					"Edibility": 35,
 					"ContextTags":
 					[
 						"color_brown",
@@ -171,8 +186,8 @@
 					"Description": "{{i18n:CouvertureBittersweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 10,
-					"Price": 1575,
-					"Edibility": 7,
+					"Price": 880,
+					"Edibility": 35,
 					"ContextTags":
 					[
 						"color_dark_brown",
@@ -187,8 +202,8 @@
 					"Description": "{{i18n:CouvertureSemiSweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 11,
-					"Price": 1300,
-					"Edibility": 7,
+					"Price": 765,
+					"Edibility": 35,
 					"ContextTags":
 					[
 						"color_dark_brown",
@@ -203,11 +218,762 @@
 					"Description": "{{i18n:CouvertureWhiteChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 12,
-					"Price": 1140,
-					"Edibility": 7,
+					"Price": 670,
+					"Edibility": 35,
 					"ContextTags":
 					[
 						"color_white"
+					]
+				},
+				/* First Round Cooking Items - No Extra Dependencies */
+				"ChocolatierContinued_GoldMilkChocolateCoins":
+				{
+					"Name": "Gold Milk Chocolate Coins",
+					"Category": -7,
+					"DisplayName": "{{i18n:GoldMilkChocolateCoins_name}}",
+					"Description": "{{i18n:GoldMilkChocolateCoins_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 14,
+					"Price": 590,
+					"Edibility": 40,
+					"ContextTags":
+					[
+						"color_gold",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_IridiumExtraDarkChocolateCoins":
+				{
+					"Name": "Iridium Extra Dark Chocolate Coins",
+					"Category": -7,
+					"DisplayName": "{{i18n:IridiumExtraDarkChocolateCoins_name}}",
+					"Description": "{{i18n:IridiumExtraDarkChocolateCoins_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 15,
+					"Price": 700,
+					"Edibility": 50,
+					"ContextTags":
+					[
+						"color_iridium",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_DarkChocolateCoveredCherries":
+				{
+					"Name": "Dark Chocolate Covered Cherries",
+					"Category": -7,
+					"DisplayName": "{{i18n:DarkChocolateCoveredCherries_name}}",
+					"Description": "{{i18n:DarkChocolateCoveredCherries_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 16,
+					"Price": 830,
+					"Edibility": 35,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_MilkChocolateCoveredCherries":
+				{
+					"Name": "Milk Chocolate Covered Cherries",
+					"Category": -7,
+					"DisplayName": "{{i18n:MilkChocolateCoveredCherries_name}}",
+					"Description": "{{i18n:MilkChocolateCoveredCherries_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 17,
+					"Price": 985,
+					"Edibility": 35,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_ExtraDarkChocolateCoveredRaisins":
+				{
+					"Name": "Extra Dark Chocolate Covered Raisins",
+					"Category": -7,
+					"DisplayName": "{{i18n:ExtraDarkChocolateCoveredRaisins_name}}",
+					"Description": "{{i18n:ExtraDarkChocolateCoveredRaisins_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 18,
+					"Price": 1670,
+					"Edibility": 70,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_WhiteChocolateCoveredRaisins":
+				{
+					"Name": "White Chocolate Covered Raisins",
+					"Category": -7,
+					"DisplayName": "{{i18n:WhiteChocolateCoveredRaisins_name}}",
+					"Description": "{{i18n:WhiteChocolateCoveredRaisins_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 19,
+					"Price": 1550,
+					"Edibility": 70,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_DarkChocolateCoveredStarfruit":
+				{
+					"Name": "Dark Chocolate Covered Starfruit",
+					"Category": -7,
+					"DisplayName": "{{i18n:DarkChocolateCoveredStarfruit_name}}",
+					"Description": "{{i18n:DarkChocolateCoveredStarfruit_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 20,
+					"Price": 1630,
+					"Edibility": 70,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_ExtraDarkChocolateCoveredStarfruit":
+				{
+					"Name": "Extra Dark Chocolate Covered Starfruit",
+					"Category": -7,
+					"DisplayName": "{{i18n:ExtraDarkChocolateCoveredStarfruit_name}}",
+					"Description": "{{i18n:ExtraDarkChocolateCoveredStarfruit_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 21,
+					"Price": 1780,
+					"Edibility": 70,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_MilkChocolateCoveredStarfruit":
+				{
+					"Name": "Milk Chocolate Covered Starfruit",
+					"Category": -7,
+					"DisplayName": "{{i18n:MilkChocolateCoveredStarfruit_name}}",
+					"Description": "{{i18n:MilkChocolateCoveredStarfruit_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 22,
+					"Price": 1790,
+					"Edibility": 70,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_WhiteChocolateCoveredStarfruit":
+				{
+					"Name": "White Chocolate Covered Starfruit",
+					"Category": -7,
+					"DisplayName": "{{i18n:WhiteChocolateCoveredStarfruit_name}}",
+					"Description": "{{i18n:WhiteChocolateCoveredStarfruit_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 23,
+					"Price": 1670,
+					"Edibility": 70,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_DarkChocolateCoveredStrawberry":
+				{
+					"Name": "Dark Chocolate Covered Strawberry",
+					"Category": -7,
+					"DisplayName": "{{i18n:DarkChocolateCoveredStrawberry_name}}",
+					"Description": "{{i18n:DarkChocolateCoveredStrawberry_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 24,
+					"Price": 875,
+					"Edibility": 40,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_ExtraDarkChocolateCoveredStrawberry":
+				{
+					"Name": "Extra Dark Chocolate Covered Strawberry",
+					"Category": -7,
+					"DisplayName": "{{i18n:ExtraDarkChocolateCoveredStrawberry_name}}",
+					"Description": "{{i18n:ExtraDarkChocolateCoveredStrawberry_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 25,
+					"Price": 1025,
+					"Edibility": 40,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_MilkChocolateCoveredStrawberry":
+				{
+					"Name": "Milk Chocolate Covered Strawberry",
+					"Category": -7,
+					"DisplayName": "{{i18n:MilkChocolateCoveredStrawberry_name}}",
+					"Description": "{{i18n:MilkChocolateCoveredStrawberry_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 26,
+					"Price": 1030,
+					"Edibility": 40,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_WhiteChocolateCoveredStrawberry":
+				{
+					"Name": "White Chocolate Covered Strawberry",
+					"Category": -7,
+					"DisplayName": "{{i18n:WhiteChocolateCoveredStrawberry_name}}",
+					"Description": "{{i18n:WhiteChocolateCoveredStrawberry_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 27,
+					"Price": 910,
+					"Edibility": 40,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_LeFisheAuChocolat":
+				{
+					"Name": "Le Fishe Au Chocolat",
+					"Category": -7,
+					"DisplayName": "{{i18n:LeFisheAuChocolat_name}}",
+					"Description": "{{i18n:LeFisheAuChocolat_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 28,
+					"Price": 445,
+					"Edibility": -25,
+					"ContextTags":
+					[
+						"color_brown"
+					]
+				},
+				"ChocolatierContinued_ChocolateOrange":
+				{
+					"Name": "Chocolate Orange",
+					"Category": -7,
+					"DisplayName": "{{i18n:ChocolateOrange_name}}",
+					"Description": "{{i18n:ChocolateOrange_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 29,
+					"Price": 1625,
+					"Edibility": 50,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_DarkChocolatePeanutButterCups":
+				{
+					"Name": "Dark Chocolate Peanut Butter Cups",
+					"Category": -7,
+					"DisplayName": "{{i18n:DarkChocolatePeanutButterCups_name}}",
+					"Description": "{{i18n:DarkChocolatePeanutButterCups_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 31,
+					"Price": 1030,
+					"Edibility": 50,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_ExtraDarkChocolatePeanutButterCups":
+				{
+					"Name": "Extra Dark Chocolate Peanut Butter Cups",
+					"Category": -7,
+					"DisplayName": "{{i18n:ExtraDarkChocolatePeanutButterCups_name}}",
+					"Description": "{{i18n:ExtraDarkChocolatePeanutButterCups_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 32,
+					"Price": 1180,
+					"Edibility": 50,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_MilkChocolatePeanutButterCups":
+				{
+					"Name": "Milk Chocolate Peanut Butter Cups",
+					"Category": -7,
+					"DisplayName": "{{i18n:MilkChocolatePeanutButterCups_name}}",
+					"Description": "{{i18n:MilkChocolatePeanutButterCups_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 33,
+					"Price": 1190,
+					"Edibility": 50,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_WhiteChocolatePeanutButterCups":
+				{
+					"Name": "White Chocolate Peanut Butter Cups",
+					"Category": -7,
+					"DisplayName": "{{i18n:WhiteChocolatePeanutButterCups_name}}",
+					"Description": "{{i18n:WhiteChocolatePeanutButterCups_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 34,
+					"Price": 1070,
+					"Edibility": 50,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_DarkChocolateCoveredPretzel":
+				{
+					"Name": "Dark Chocolate Covered Pretzel",
+					"Category": -7,
+					"DisplayName": "{{i18n:DarkChocolateCoveredPretzel_name}}",
+					"Description": "{{i18n:DarkChocolateCoveredPretzel_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 35,
+					"Price": 925,
+					"Edibility": 60,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_ExtraDarkChocolateCoveredPretzel":
+				{
+					"Name": "Extra Dark Chocolate Covered Pretzel",
+					"Category": -7,
+					"DisplayName": "{{i18n:ExtraDarkChocolateCoveredPretzel_name}}",
+					"Description": "{{i18n:ExtraDarkChocolateCoveredPretzel_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 36,
+					"Price": 1075,
+					"Edibility": 60,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_MilkChocolateCoveredPretzel":
+				{
+					"Name": "Milk Chocolate Covered Pretzel",
+					"Category": -7,
+					"DisplayName": "{{i18n:MilkChocolateCoveredPretzel_name}}",
+					"Description": "{{i18n:MilkChocolateCoveredPretzel_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 37,
+					"Price": 1080,
+					"Edibility": 60,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_WhiteChocolateCoveredPretzel":
+				{
+					"Name": "White Chocolate Covered Pretzel",
+					"Category": -7,
+					"DisplayName": "{{i18n:WhiteChocolateCoveredPretzel_name}}",
+					"Description": "{{i18n:WhiteChocolateCoveredPretzel_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 38,
+					"Price": 960,
+					"Edibility": 60,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_MilkChocolateOrangeFudge":
+				{
+					"Name": "Milk Chocolate Orange Fudge",
+					"Category": -7,
+					"DisplayName": "{{i18n:MilkChocolateOrangeFudge_name}}",
+					"Description": "{{i18n:MilkChocolateOrangeFudge_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 40,
+					"Price": 1005,
+					"Edibility": 50,
+					"ContextTags":
+					[
+						"color_brown",
+						"color_orange",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_WhiteChocolateCookiesNCremeFudge":
+				{
+					"Name": "White Chocolate Cookies 'n Creme Fudge",
+					"Category": -7,
+					"DisplayName": "{{i18n:WhiteChocolateCookiesNCremeFudge_name}}",
+					"Description": "{{i18n:WhiteChocolateCookiesNCremeFudge_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 41,
+					"Price": 1120,
+					"Edibility": 60,
+					"ContextTags":
+					[
+						"color_white",
+						"color_sand",
+						"food_sweet"
+					]
+				},
+				/* Bonbons - No Extra Dependencies */
+				"ChocolatierContinued_BlueberryDarkChocolateBonbon":
+				{
+					"Name": "Blueberry Dark Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:BlueberryDarkChocolateBonbon_name}}",
+					"Description": "{{i18n:BlueberryDarkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 42,
+					"Price": 1565,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_CafeAuLaitDarkChocolateBonbon":
+				{
+					"Name": "Cafe Au Lait Dark Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:CafeAuLaitDarkChocolateBonbon_name}}",
+					"Description": "{{i18n:CafeAuLaitDarkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 43,
+					"Price": 1345,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_PistachioDarkChocolateBonbon":
+				{
+					"Name": "Pistachio Dark Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:PistachioDarkChocolateBonbon_name}}",
+					"Description": "{{i18n:PistachioDarkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 44,
+					"Price": 1270,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_RaspberryDarkChocolateBonbon":
+				{
+					"Name": "Raspberry Dark Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:RaspberryDarkChocolateBonbon_name}}",
+					"Description": "{{i18n:RaspberryDarkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 45,
+					"Price": 1295,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_CoconutExtraDarkChocolateBonbon":
+				{
+					"Name": "Coconut Extra Dark Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:CoconutExtraDarkChocolateBonbon_name}}",
+					"Description": "{{i18n:CoconutExtraDarkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 47,
+					"Price": 1500,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_MatchaExtraDarkChocolateBonbon":
+				{
+					"Name": "Matcha Extra Dark Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:MatchaExtraDarkChocolateBonbon_name}}",
+					"Description": "{{i18n:MatchaExtraDarkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 48,
+					"Price": 1305,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_PineappleExtraDarkChocolateBonbon":
+				{
+					"Name": "Pineapple Extra Dark Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:PineappleExtraDarkChocolateBonbon_name}}",
+					"Description": "{{i18n:PineappleExtraDarkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 49,
+					"Price": 1690,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_CaramelMilkChocolateBonbon":
+				{
+					"Name": "Caramel Milk Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:CaramelMilkChocolateBonbon_name}}",
+					"Description": "{{i18n:CaramelMilkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 50,
+					"Price": 1330,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_HazelnutMilkChocolateBonbon":
+				{
+					"Name": "Hazelnut Milk Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:HazelnutMilkChocolateBonbon_name}}",
+					"Description": "{{i18n:HazelnutMilkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 51,
+					"Price": 1040,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_SmoresMilkChocolateBonbon":
+				{
+					"Name": "S'mores Milk Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:SmoresMilkChocolateBonbon_name}}",
+					"Description": "{{i18n:SmoresMilkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 52,
+					"Price": 1175,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+			}
+		},
+		{
+			"LogName": "Load Object Data - CMC Extended Trees",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+			},
+			"Entries":
+			{
+				/* First Round Cooking Items - Cornucopia More Crops - Extended Trees Dependency */
+				"ChocolatierContinued_AssortedChocolateTurtles":
+				{
+					"Name": "Assorted Chocolate Turtles",
+					"Category": -7,
+					"DisplayName": "{{i18n:AssortedChocolateTurtles_name}}",
+					"Description": "{{i18n:AssortedChocolateTurtles_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 30,
+					"Price": 3110,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_white",
+						"color_dark_brown",
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				/* Bonbons - Cornucopia More Crops - Extended Trees Dependency */
+				"ChocolatierContinued_VanillaWalnutMilkChocolateBonbon":
+				{
+					"Name": "Vanilla Walnut Milk Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:VanillaWalnutMilkChocolateBonbon_name}}",
+					"Description": "{{i18n:VanillaWalnutMilkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 53,
+					"Price": 1040,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_brown",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_LemonMeringuePieWhiteChocolateBonbon":
+				{
+					"Name": "Lemon Meringue Pie White Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:LemonMeringuePieWhiteChocolateBonbon_name}}",
+					"Description": "{{i18n:LemonMeringuePieWhiteChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 56,
+					"Price": 1050,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_KeyLimePieWhiteChocolateBonbon":
+				{
+					"Name": "Key Lime Pie White Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:KeyLimePieWhiteChocolateBonbon_name}}",
+					"Description": "{{i18n:KeyLimePieWhiteChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 57,
+					"Price": 990,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+			}
+		},
+		{
+			"LogName": "Load Object Data - CMC Herbs",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"Entries":
+			{
+				/* First Round Cooking Items - Cornucopia More Crops - Herbs Dependency */
+				"ChocolatierContinued_DarkChocolateMintFudge":
+				{
+					"Name": "Dark Chocolate Mint Fudge",
+					"Category": -7,
+					"DisplayName": "{{i18n:DarkChocolateMintFudge_name}}",
+					"Description": "{{i18n:DarkChocolateMintFudge_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 39,
+					"Price": 780,
+					"Edibility": 40,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+				/* Bonbons - Cornucopia More Crops - Herbs Dependency */
+				"ChocolatierContinued_ApplePieWhiteChocolateBonbon":
+				{
+					"Name": "Apple Pie White Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:ApplePieWhiteChocolateBonbon_name}}",
+					"Description": "{{i18n:ApplePieWhiteChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 55,
+					"Price": 1100,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_CinnamonExtraDarkChocolateBonbon":
+				{
+					"Name": "Cinnamon Extra Dark Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:CinnamonExtraDarkChocolateBonbon_name}}",
+					"Description": "{{i18n:CinnamonExtraDarkChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 46,
+					"Price": 1490,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"food_sweet"
+					]
+				},
+			}
+		},
+		{
+			"LogName": "Load Object Data - CMC Extended Trees AND Herbs",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"Entries":
+			{
+				/* Bonbons - Cornucopia More Crops - Extended Trees AND Herbs Dependencies */
+				"ChocolatierContinued_AlmondNutmegWhiteChocolateBonbon":
+				{
+					"Name": "Almond Nutmeg White Chocolate Bonbon",
+					"Category": -7,
+					"DisplayName": "{{i18n:AlmondNutmegWhiteChocolateBonbon_name}}",
+					"Description": "{{i18n:AlmondNutmegWhiteChocolateBonbon_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 54,
+					"Price": 1025,
+					"Edibility": 75,
+					"ContextTags":
+					[
+						"color_white",
+						"food_sweet"
 					]
 				},
 			}

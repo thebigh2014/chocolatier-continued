@@ -25,10 +25,28 @@
 					],
 					"MinutesUntilReady": 360,
 				},
+				"ChocolatierContinued_OrangeOil":
+				{
+					"Id": "ChocolatierContinued_OrangeOil",
+					"Triggers": 
+					[
+						{
+							"RequiredItemId": "(O)635",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_OrangeOil",
+						}
+					],
+					"MinutesUntilReady": 360,
+				},
 			},
 			"MoveEntries":
 			[
-				{ "Id": "ChocolatierContinued_VanillaExtract", "BeforeId": "Cornucopia_EssentialOil" }
+				{ "Id": "ChocolatierContinued_VanillaExtract", "BeforeId": "Cornucopia_EssentialOil" },
+				{ "Id": "ChocolatierContinued_OrangeOil", "BeforeId": "Cornucopia_EssentialOil" }
 			]
 		},
 		{
@@ -177,7 +195,44 @@
 					"WobbleWhileWorking": true,
 					"ShowNextIndexWhileWorking": true,
 					"ShowNextIndexWhenReady": true
-				}
+				},
+				"(BC)ChocolatierContinued_BonbonChocolatePress": 
+				{
+					"OutputRules":
+					[
+						/* Dummy Output Rule to Validate Machine (needed for PFM Automate to Work Correctly) */
+						{
+							"Id": "ChocolatierContinued_RecursiveMilkChocolate",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)ChocolatierContinued_MilkChocolate",
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"ItemId": "(O)ChocolatierContinued_MilkChocolate",
+								}
+							],
+							"MinutesUntilReady": 40320
+						}
+					],
+					"LoadEffects":
+					[
+						{
+							"Sounds": 
+							[
+								{
+									"Id": "Ship"
+								},
+							],
+						}
+					],
+					"WobbleWhileWorking": true,
+					"ShowNextIndexWhileWorking": true,
+					"ShowNextIndexWhenReady": true
+				},
 			}
 		},
     ]

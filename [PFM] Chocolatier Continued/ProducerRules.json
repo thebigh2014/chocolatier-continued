@@ -1,5 +1,5 @@
 ﻿[
-	/* Milk Chocolate */
+	/* Chocolatier's Cauldron */
 	{
 		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
 		"InputIdentifier": "(O)ChocolatierContinued_PowderedMilk",
@@ -15,7 +15,6 @@
 		"OutputIdentifier": "(O)ChocolatierContinued_MilkChocolate",
 		"Sounds": [ "Ship" ],
 	},
-	/* Bittersweet Chocolate */
 	{
 		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
 		"InputIdentifier": "(O)Cornucopia_SeaSalt",
@@ -31,7 +30,6 @@
 		"OutputIdentifier": "(O)ChocolatierContinued_BittersweetChocolate",
 		"Sounds": [ "Ship" ],
 	},
-	/* Semi-Sweet Chocolate */
 	{
 		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
 		"InputIdentifier": "(O)Cornucopia_CoconutOil",
@@ -47,7 +45,6 @@
 		"OutputIdentifier": "(O)ChocolatierContinued_SemiSweetChocolate",
 		"Sounds": [ "Ship" ],
 	},
-	/* White Chocolate */
 	{
 		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
 		"InputIdentifier": "(O)ChocolatierContinued_VanillaExtract",
@@ -63,7 +60,6 @@
 		"OutputIdentifier": "(O)ChocolatierContinued_WhiteChocolate",
 		"Sounds": [ "Ship" ],
 	},
-	/* Couverture Milk Chocolate */
 	{
 		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
 		"InputIdentifier": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
@@ -81,7 +77,6 @@
 		"OutputIdentifier": "(O)ChocolatierContinued_CouvertureMilkChocolate",
 		"Sounds": [ "Ship" ],
 	},
-	/* Couverture Bittersweet Chocolate */
 	{
 		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
 		"InputIdentifier": "(O)245",
@@ -99,7 +94,6 @@
 		"OutputIdentifier": "(O)ChocolatierContinued_CouvertureBittersweetChocolate",
 		"Sounds": [ "Ship" ],
 	},
-	/* Couverture Semi-Sweet Chocolate */
 	{
 		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
 		"InputIdentifier": "(O)Cornucopia_Salt",
@@ -117,7 +111,6 @@
 		"OutputIdentifier": "(O)ChocolatierContinued_CouvertureSemiSweetChocolate",
 		"Sounds": [ "Ship" ],
 	},
-	/* Couverture White Chocolate */
 	{
 		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_ChocolatierCauldron",
 		"InputIdentifier": "(O)Cornucopia_CocoaButter",
@@ -131,6 +124,248 @@
 		},
 		"MinutesUntilReady": 180,
 		"OutputIdentifier": "(O)ChocolatierContinued_CouvertureWhiteChocolate",
+		"Sounds": [ "Ship" ],
+	},
+	/* Bonbon Chocolate Press */
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)258",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_SemiSweetChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_WhiteChocolate": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_BlueberryDarkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)395",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_SemiSweetChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_MilkChocolate": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_CafeAuLaitDarkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_Pistachio",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_SemiSweetChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_MilkChocolate": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_PistachioDarkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_Raspberry",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_SemiSweetChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_WhiteChocolate": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_RaspberryDarkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_CinnamonSticks",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_BittersweetChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_MilkChocolate": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_CinnamonExtraDarkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)88",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_BittersweetChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_WhiteChocolate": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_CoconutExtraDarkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)ChocolatierContinued_MatchaPowder",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_BittersweetChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_SemiSweetChocolate": 1,
+			"(O)Cornucopia_Butter": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_MatchaExtraDarkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)832",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_BittersweetChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_MilkChocolate": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_PineappleExtraDarkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_Caramel",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_MilkChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_BrownSugar": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_CaramelMilkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)408",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_MilkChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)395": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_HazelnutMilkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_MarshmallowFluff",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_MilkChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_GrahamCrackers": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_SmoresMilkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_Walnut",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_MilkChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)ChocolatierContinued_VanillaExtract": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_VanillaWalnutMilkChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_Almond",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_WhiteChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_Nutmeg": 1,
+			"(O)184": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_AlmondNutmegWhiteChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)613",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_WhiteChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_CinnamonSticks": 1,
+			"(O)Cornucopia_CreamCheese": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_ApplePieWhiteChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_Lemon",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_WhiteChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_GrahamCrackers": 1,
+			"(O)Cornucopia_CreamCheese": 1,
+			"(O)-5": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_LemonMeringuePieWhiteChocolateBonbon",
+		"Sounds": [ "Ship" ],
+	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"InputIdentifier": "(O)Cornucopia_Lime",
+		"InputStack": 1,
+		"FuelIdentifier": "(O)ChocolatierContinued_WhiteChocolate",
+		"FuelStack": 1,
+		"AdditionalFuel":
+		{
+			"(O)Cornucopia_GrahamCrackers": 1,
+			"(O)Cornucopia_CreamCheese": 1
+		},
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "(O)ChocolatierContinued_KeyLimePieWhiteChocolateBonbon",
 		"Sounds": [ "Ship" ],
 	},
 ]

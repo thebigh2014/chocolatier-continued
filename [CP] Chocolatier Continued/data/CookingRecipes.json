@@ -1,0 +1,65 @@
+{
+	"Changes":
+	[
+		{
+			"LogName": "Load Cooking Recipes",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Entries":
+			{
+				"Gold Milk Chocolate Coins": "384 1 ChocolatierContinued_MilkChocolate 1/9999 9999/ChocolatierContinued_GoldMilkChocolateCoins/null/",
+				"Iridium Extra Dark Chocolate Coins": "386 1 ChocolatierContinued_BittersweetChocolate 1/9999 9999/ChocolatierContinued_IridiumExtraDarkChocolateCoins/null/",
+				"Dark Chocolate Covered Cherries": "638 1 ChocolatierContinued_CouvertureSemiSweetChocolate 1/9999 9999/ChocolatierContinued_DarkChocolateCoveredCherries/null/",
+				"Milk Chocolate Covered Cherries": "638 1 ChocolatierContinued_CouvertureMilkChocolate 1/9999 9999/ChocolatierContinued_MilkChocolateCoveredCherries/null/",
+				"Extra Dark Chocolate Covered Raisins": "Raisins 1 ChocolatierContinued_CouvertureBittersweetChocolate 1/9999 9999/ChocolatierContinued_ExtraDarkChocolateCoveredRaisins/null/",
+				"White Chocolate Covered Raisins": "Raisins 1 ChocolatierContinued_CouvertureWhiteChocolate 1/9999 9999/ChocolatierContinued_WhiteChocolateCoveredRaisins/null/",
+				"Dark Chocolate Covered Starfruit": "268 1 ChocolatierContinued_CouvertureSemiSweetChocolate 1/9999 9999/ChocolatierContinued_DarkChocolateCoveredStarfruit/null/",
+				"Extra Dark Chocolate Covered Starfruit": "268 1 ChocolatierContinued_CouvertureBittersweetChocolate 1/9999 9999/ChocolatierContinued_ExtraDarkChocolateCoveredStarfruit/null/",
+				"Milk Chocolate Covered Starfruit": "268 1 ChocolatierContinued_CouvertureMilkChocolate 1/9999 9999/ChocolatierContinued_MilkChocolateCoveredStarfruit/null/",
+				"White Chocolate Covered Starfruit": "268 1 ChocolatierContinued_CouvertureWhiteChocolate 1/9999 9999/ChocolatierContinued_WhiteChocolateCoveredStarfruit/null/",
+				"Dark Chocolate Covered Strawberry": "400 1 ChocolatierContinued_CouvertureSemiSweetChocolate 1/9999 9999/ChocolatierContinued_DarkChocolateCoveredStrawberry/null/",
+				"Extra Dark Chocolate Covered Strawberry": "400 1 ChocolatierContinued_CouvertureBittersweetChocolate 1/9999 9999/ChocolatierContinued_ExtraDarkChocolateCoveredStrawberry/null/",
+				"Milk Chocolate Covered Strawberry": "400 1 ChocolatierContinued_CouvertureMilkChocolate 1/9999 9999/ChocolatierContinued_MilkChocolateCoveredStrawberry/null/",
+				"White Chocolate Covered Strawberry": "400 1 ChocolatierContinued_CouvertureWhiteChocolate 1/9999 9999/ChocolatierContinued_WhiteChocolateCoveredStrawberry/null/",
+				"Le Fishe Au Chocolat": "165 1 ChocolatierContinued_CouvertureMilkChocolate 1/9999 9999/ChocolatierContinued_LeFisheAuChocolat/null/",
+				"Chocolate Orange": "ChocolatierContinued_CouvertureMilkChocolate 1 ChocolatierContinued_MilkChocolate 1 ChocolatierContinued_OrangeOil 1 245 1/9999 9999/ChocolatierContinued_ChocolateOrange/null/",
+				"Dark Chocolate Peanut Butter Cups": "Cornucopia_PeanutButter 1 ChocolatierContinued_CouvertureSemiSweetChocolate 1 245 1/9999 9999/ChocolatierContinued_DarkChocolatePeanutButterCups/null/",
+				"Extra Dark Chocolate Peanut Butter Cups": "Cornucopia_PeanutButter 1 ChocolatierContinued_CouvertureBittersweetChocolate 1 245 1/9999 9999/ChocolatierContinued_ExtraDarkChocolatePeanutButterCups/null/",
+				"Milk Chocolate Peanut Butter Cups": "Cornucopia_PeanutButter 1 ChocolatierContinued_CouvertureMilkChocolate 1 245 1/9999 9999/ChocolatierContinued_MilkChocolatePeanutButterCups/null/",
+				"White Chocolate Peanut Butter Cups": "Cornucopia_PeanutButter 1 ChocolatierContinued_CouvertureWhiteChocolate 1 245 1/9999 9999/ChocolatierContinued_WhiteChocolatePeanutButterCups/null/",
+				"Dark Chocolate Covered Pretzel": "Cornucopia_SoftPretzel 1 ChocolatierContinued_CouvertureSemiSweetChocolate 1 245 1/9999 9999/ChocolatierContinued_DarkChocolateCoveredPretzel/null/",
+				"Extra Dark Chocolate Covered Pretzel": "Cornucopia_SoftPretzel 1 ChocolatierContinued_CouvertureBittersweetChocolate 1 245 1/9999 9999/ChocolatierContinued_ExtraDarkChocolateCoveredPretzel/null/",
+				"Milk Chocolate Covered Pretzel": "Cornucopia_SoftPretzel 1 ChocolatierContinued_CouvertureMilkChocolate 1 245 1/9999 9999/ChocolatierContinued_MilkChocolateCoveredPretzel/null/",
+				"White Chocolate Covered Pretzel": "Cornucopia_SoftPretzel 1 ChocolatierContinued_CouvertureWhiteChocolate 1 245 1/9999 9999/ChocolatierContinued_WhiteChocolateCoveredPretzel/null/",
+				"Milk Chocolate Orange Fudge": "ChocolatierContinued_MilkChocolate 1 186 1 ChocolatierContinued_OrangeOil 1 245 1/9999 9999/ChocolatierContinued_MilkChocolateOrangeFudge/null/",
+				"White Chocolate Cookies 'n Creme Fudge": "ChocolatierContinued_WhiteChocolate 1 186 1 223 1 245 1/9999 9999/ChocolatierContinued_WhiteChocolateCookiesNCremeFudge/null/",
+			}
+		},
+		{
+			"LogName": "Load Cooking Recipes - CMC Extended Trees",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+			},
+			"Entries":
+			{
+				"Assorted Chocolate Turtles": "Cornucopia_Pecan 3 Cornucopia_Caramel 1 ChocolatierContinued_CouvertureSemiSweetChocolate 1 ChocolatierContinued_CouvertureMilkChocolate 1 ChocolatierContinued_CouvertureWhiteChocolate 1/9999 9999/ChocolatierContinued_AssortedChocolateTurtles/null/",
+			}
+		},
+		{
+			"LogName": "Load Cooking Recipes - CMC Herbs",
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"Entries":
+			{
+				"Dark Chocolate Mint Fudge": "ChocolatierContinued_SemiSweetChocolate 1 186 1 Cornucopia_Mint 1 245 1/9999 9999/ChocolatierContinued_DarkChocolateMintFudge/null/",
+			}
+		},
+	]
+}

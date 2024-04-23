@@ -4,4 +4,9 @@
 		"AlternateFrameProducing": true,
 		"AlternateFrameWhenReady": true,
 	},
+	{
+		"ProducerQualifiedItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": true,
+	},
 ]

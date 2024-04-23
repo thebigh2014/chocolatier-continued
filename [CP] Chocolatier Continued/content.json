@@ -11,7 +11,7 @@
 		{
 			"LogName": "Load Data",
 			"Action": "Include",
-			"FromFile": "data/BigCraftables.json, data/CraftingRecipes.json, data/Machines.json, data/Objects.json"/*, data/ObjectReplacements.json, data/Strings.json"*/
+			"FromFile": "data/BigCraftables.json, data/CookingRecipes.json, data/CraftingRecipes.json, data/Machines.json, data/NPCGiftTastes.json, data/Objects.json, data/Shops.json"/*, data/ObjectReplacements.json, data/Strings.json"*/
 		},
 		{
 			"LogName": "Load Missing Sprites",

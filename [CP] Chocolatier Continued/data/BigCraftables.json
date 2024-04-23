@@ -15,6 +15,14 @@
 					"Texture": "TheBigH.ChocolatierContinued/BigCraftables",
 					"SpriteIndex": 0
 				},
+				"ChocolatierContinued_BonbonChocolatePress":
+				{
+					"Name": "Bonbon Chocolate Press",
+					"DisplayName": "{{i18n:BonbonChocolatePress_name}}",
+					"Description": "{{i18n:BonbonChocolatePress_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/BigCraftables",
+					"SpriteIndex": 2
+				},
 			}
 		}
 	]
