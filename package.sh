@@ -19,10 +19,9 @@ mkdir "Chocolatier Continued";
 
 cd "Chocolatier Continued";
 
-cp -R ../../\[* ./;
+cp -R ../../\[CP* ./;
 
 cp ../../LICENSE ../../README.md ../../CREDITS.md ./\[CP*/;
-cp ../../LICENSE ../../README.md ../../CREDITS.md ./\[PFM*/;
 
 cd ../;
 

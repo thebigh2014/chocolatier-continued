@@ -1,6 +1,7 @@
 {
 	"Changes":
 	[
+		/* Vanilla and Cornucopia Artisan Machine Updates */
 		{
 			"LogName": "Load Updated Machines",
 			"Action": "EditData",
@@ -153,6 +154,7 @@
 				}
 			}
 		},
+		/* Chocolatier Continued New Machines */
 		{
 			"LogName": "Load New Machines",
 			"Action": "EditData",
@@ -163,23 +165,226 @@
 				{
 					"OutputRules":
 					[
-						/* Dummy Output Rule to Validate Machine (needed for PFM Automate to Work Correctly) */
 						{
-							"Id": "ChocolatierContinued_RecursiveTrufflePowder",
+							"Id": "ChocolatierContinued_MilkChocolate",
 							"Triggers":
 							[
 								{
-									"RequiredItemId": "(O)ChocolatierContinued_TrufflePowder",
+									"RequiredItemId": "(O)ChocolatierContinued_PowderedMilk",
+									"RequiredCount": 1,
 								}
 							],
 							"OutputItem":
 							[
 								{
-									"ItemId": "(O)ChocolatierContinued_TrufflePowder",
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_CoconutOil",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_MilkChocolate",
 								}
 							],
-							"MinutesUntilReady": 40320
-						}
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "ChocolatierContinued_BittersweetChocolate",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)Cornucopia_SeaSalt",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementCount.1": "2",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_CoconutOil",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_BittersweetChocolate",
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "ChocolatierContinued_SemiSweetChocolate",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)Cornucopia_CoconutOil",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_SeaSalt",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_SemiSweetChocolate",
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "ChocolatierContinued_WhiteChocolate",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)ChocolatierContinued_VanillaExtract",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_PowderedMilk",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_CocoaButter",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_WhiteChocolate",
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "ChocolatierContinued_CouvertureMilkChocolate",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)Cornucopia_CocoaButter",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_PowderedMilk",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)ChocolatierContinued_VanillaExtract",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+										"selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_CoconutOil",
+										"selph.ExtraMachineConfig.RequirementCount.4": "1",
+										"selph.ExtraMachineConfig.RequirementId.5": "(O)245",
+										"selph.ExtraMachineConfig.RequirementCount.5": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_CouvertureMilkChocolate",
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "ChocolatierContinued_CouvertureBittersweetChocolate",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)245",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_VanillaExtract",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementCount.2": "2",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CocoaButter",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+										"selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_Salt",
+										"selph.ExtraMachineConfig.RequirementCount.4": "1",
+										"selph.ExtraMachineConfig.RequirementId.5": "(O)Cornucopia_CoconutOil",
+										"selph.ExtraMachineConfig.RequirementCount.5": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_CouvertureBittersweetChocolate",
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "ChocolatierContinued_CouvertureSemiSweetChocolate",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)Cornucopia_Salt",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_VanillaExtract",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CocoaButter",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+										"selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_CoconutOil",
+										"selph.ExtraMachineConfig.RequirementCount.4": "1",
+										"selph.ExtraMachineConfig.RequirementId.5": "(O)245",
+										"selph.ExtraMachineConfig.RequirementCount.5": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_CouvertureSemiSweetChocolate",
+								}
+							],
+							"MinutesUntilReady": 180
+						},
+						{
+							"Id": "ChocolatierContinued_CouvertureWhiteChocolate",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)Cornucopia_CocoaButter",
+									"RequiredCount": 2,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_VanillaExtract",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_PowderedMilk",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)245",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_CouvertureWhiteChocolate",
+								}
+							],
+							"MinutesUntilReady": 180
+						},
 					],
 					"LoadEffects":
 					[
@@ -200,23 +405,266 @@
 				{
 					"OutputRules":
 					[
-						/* Dummy Output Rule to Validate Machine (needed for PFM Automate to Work Correctly) */
 						{
-							"Id": "ChocolatierContinued_RecursiveMilkChocolate",
+							"Id": "ChocolatierContinued_BlueberryDarkChocolateBonbon",
 							"Triggers":
 							[
 								{
-									"RequiredItemId": "(O)ChocolatierContinued_MilkChocolate",
+									"RequiredItemId": "(O)258",
+									"RequiredCount": 1,
 								}
 							],
 							"OutputItem":
 							[
 								{
-									"ItemId": "(O)ChocolatierContinued_MilkChocolate",
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_SemiSweetChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_WhiteChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_BlueberryDarkChocolateBonbon",
 								}
 							],
-							"MinutesUntilReady": 40320
-						}
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_CafeAuLaitDarkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)395",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_SemiSweetChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_MilkChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_CafeAuLaitDarkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_PistachioDarkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)Cornucopia_Pistachio",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_SemiSweetChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_MilkChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_PistachioDarkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_RaspberryDarkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)Cornucopia_Raspberry",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_SemiSweetChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_WhiteChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_RaspberryDarkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_CoconutExtraDarkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)88",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_BittersweetChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_WhiteChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_CoconutExtraDarkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_MatchaExtraDarkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)ChocolatierContinued_MatchaPowder",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_BittersweetChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_SemiSweetChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_Butter",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_MatchaExtraDarkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_PineappleExtraDarkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)832",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_BittersweetChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_MilkChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_PineappleExtraDarkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_CaramelMilkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)Cornucopia_Caramel",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_MilkChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_BrownSugar",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_CaramelMilkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_HazelnutMilkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)408",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_MilkChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)395",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_HazelnutMilkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_SmoresMilkChocolateBonbon",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)Cornucopia_MarshmallowFluff",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_MilkChocolate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_GrahamCrackers",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
+										"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+										"selph.ExtraMachineConfig.RequirementCount.3": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_SmoresMilkChocolateBonbon",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
 					],
 					"LoadEffects":
 					[
@@ -232,6 +680,210 @@
 					"WobbleWhileWorking": true,
 					"ShowNextIndexWhileWorking": true,
 					"ShowNextIndexWhenReady": true
+				},
+			}
+		},
+		{
+			"LogName": "Load New Machines - CMC Extended Trees",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)ChocolatierContinued_BonbonChocolatePress", "OutputRules" ],
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+			},
+			"Entries": 
+			{
+				"ChocolatierContinued_VanillaWalnutMilkChocolateBonbon":
+				{
+					"Id": "ChocolatierContinued_VanillaWalnutMilkChocolateBonbon",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)Cornucopia_Walnut",
+							"RequiredCount": 1,
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"CustomData":
+							{
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_MilkChocolate",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_VanillaExtract",
+								"selph.ExtraMachineConfig.RequirementCount.2": "1",
+								"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+								"selph.ExtraMachineConfig.RequirementCount.3": "1",
+							},
+							"ItemId": "(O)ChocolatierContinued_VanillaWalnutMilkChocolateBonbon",
+						}
+					],
+					"MinutesUntilReady": 360
+				},
+				"ChocolatierContinued_LemonMeringuePieWhiteChocolateBonbon":
+				{
+					"Id": "ChocolatierContinued_LemonMeringuePieWhiteChocolateBonbon",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)Cornucopia_Lemon",
+							"RequiredCount": 1,
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"CustomData":
+							{
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_WhiteChocolate",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_GrahamCrackers",
+								"selph.ExtraMachineConfig.RequirementCount.2": "1",
+								"selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CreamCheese",
+								"selph.ExtraMachineConfig.RequirementCount.3": "1",
+								"selph.ExtraMachineConfig.RequirementId.4": "-5",
+								"selph.ExtraMachineConfig.RequirementCount.4": "1",
+							},
+							"ItemId": "(O)ChocolatierContinued_LemonMeringuePieWhiteChocolateBonbon",
+						}
+					],
+					"MinutesUntilReady": 360
+				},
+				"ChocolatierContinued_KeyLimePieWhiteChocolateBonbon":
+				{
+					"Id": "ChocolatierContinued_KeyLimePieWhiteChocolateBonbon",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)Cornucopia_Lime",
+							"RequiredCount": 1,
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"CustomData":
+							{
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_WhiteChocolate",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_GrahamCrackers",
+								"selph.ExtraMachineConfig.RequirementCount.2": "1",
+								"selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CreamCheese",
+								"selph.ExtraMachineConfig.RequirementCount.3": "1",
+							},
+							"ItemId": "(O)ChocolatierContinued_KeyLimePieWhiteChocolateBonbon",
+						}
+					],
+					"MinutesUntilReady": 360
+				},
+			}
+		},
+		{
+			"LogName": "Load New Machines - CMC Herbs",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)ChocolatierContinued_BonbonChocolatePress", "OutputRules" ],
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"Entries": 
+			{
+				"ChocolatierContinued_CinnamonExtraDarkChocolateBonbon":
+				{
+					"Id": "ChocolatierContinued_CinnamonExtraDarkChocolateBonbon",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)Cornucopia_CinnamonSticks",
+							"RequiredCount": 1,
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"CustomData":
+							{
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_BittersweetChocolate",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_MilkChocolate",
+								"selph.ExtraMachineConfig.RequirementCount.2": "1",
+								"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+								"selph.ExtraMachineConfig.RequirementCount.3": "1",
+							},
+							"ItemId": "(O)ChocolatierContinued_CinnamonExtraDarkChocolateBonbon",
+						}
+					],
+					"MinutesUntilReady": 360
+				},
+				"ChocolatierContinued_ApplePieWhiteChocolateBonbon":
+				{
+					"Id": "ChocolatierContinued_ApplePieWhiteChocolateBonbon",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)613",
+							"RequiredCount": 1,
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"CustomData":
+							{
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_WhiteChocolate",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_CinnamonSticks",
+								"selph.ExtraMachineConfig.RequirementCount.2": "1",
+								"selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CreamCheese",
+								"selph.ExtraMachineConfig.RequirementCount.3": "1",
+							},
+							"ItemId": "(O)ChocolatierContinued_ApplePieWhiteChocolateBonbon",
+						}
+					],
+					"MinutesUntilReady": 360
+				},
+			}
+		},
+		{
+			"LogName": "Load New Machines - CMC Extended Trees AND Herbs",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)ChocolatierContinued_BonbonChocolatePress", "OutputRules" ],
+			"When":
+			{
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"Entries": 
+			{
+				"ChocolatierContinued_AlmondNutmegWhiteChocolateBonbon":
+				{
+					"Id": "ChocolatierContinued_AlmondNutmegWhiteChocolateBonbon",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)Cornucopia_Almond",
+							"RequiredCount": 1,
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"CustomData":
+							{
+								"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_WhiteChocolate",
+								"selph.ExtraMachineConfig.RequirementCount.1": "1",
+								"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Nutmeg",
+								"selph.ExtraMachineConfig.RequirementCount.2": "1",
+								"selph.ExtraMachineConfig.RequirementId.3": "(O)184",
+								"selph.ExtraMachineConfig.RequirementCount.3": "1",
+							},
+							"ItemId": "(O)ChocolatierContinued_AlmondNutmegWhiteChocolateBonbon",
+						}
+					],
+					"MinutesUntilReady": 360
 				},
 			}
 		},

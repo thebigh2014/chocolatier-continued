@@ -647,7 +647,7 @@
 				"ChocolatierContinued_BlueberryDarkChocolateBonbon":
 				{
 					"Name": "Blueberry Dark Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:BlueberryDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:BlueberryDarkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -663,7 +663,7 @@
 				"ChocolatierContinued_CafeAuLaitDarkChocolateBonbon":
 				{
 					"Name": "Cafe Au Lait Dark Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:CafeAuLaitDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:CafeAuLaitDarkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -679,7 +679,7 @@
 				"ChocolatierContinued_PistachioDarkChocolateBonbon":
 				{
 					"Name": "Pistachio Dark Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:PistachioDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:PistachioDarkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -695,7 +695,7 @@
 				"ChocolatierContinued_RaspberryDarkChocolateBonbon":
 				{
 					"Name": "Raspberry Dark Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:RaspberryDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:RaspberryDarkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -711,7 +711,7 @@
 				"ChocolatierContinued_CoconutExtraDarkChocolateBonbon":
 				{
 					"Name": "Coconut Extra Dark Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:CoconutExtraDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:CoconutExtraDarkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -727,7 +727,7 @@
 				"ChocolatierContinued_MatchaExtraDarkChocolateBonbon":
 				{
 					"Name": "Matcha Extra Dark Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:MatchaExtraDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:MatchaExtraDarkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -743,7 +743,7 @@
 				"ChocolatierContinued_PineappleExtraDarkChocolateBonbon":
 				{
 					"Name": "Pineapple Extra Dark Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:PineappleExtraDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:PineappleExtraDarkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -759,7 +759,7 @@
 				"ChocolatierContinued_CaramelMilkChocolateBonbon":
 				{
 					"Name": "Caramel Milk Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:CaramelMilkChocolateBonbon_name}}",
 					"Description": "{{i18n:CaramelMilkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -775,7 +775,7 @@
 				"ChocolatierContinued_HazelnutMilkChocolateBonbon":
 				{
 					"Name": "Hazelnut Milk Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:HazelnutMilkChocolateBonbon_name}}",
 					"Description": "{{i18n:HazelnutMilkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -791,7 +791,7 @@
 				"ChocolatierContinued_SmoresMilkChocolateBonbon":
 				{
 					"Name": "S'mores Milk Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:SmoresMilkChocolateBonbon_name}}",
 					"Description": "{{i18n:SmoresMilkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -839,7 +839,7 @@
 				"ChocolatierContinued_VanillaWalnutMilkChocolateBonbon":
 				{
 					"Name": "Vanilla Walnut Milk Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:VanillaWalnutMilkChocolateBonbon_name}}",
 					"Description": "{{i18n:VanillaWalnutMilkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -855,7 +855,7 @@
 				"ChocolatierContinued_LemonMeringuePieWhiteChocolateBonbon":
 				{
 					"Name": "Lemon Meringue Pie White Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:LemonMeringuePieWhiteChocolateBonbon_name}}",
 					"Description": "{{i18n:LemonMeringuePieWhiteChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -871,7 +871,7 @@
 				"ChocolatierContinued_KeyLimePieWhiteChocolateBonbon":
 				{
 					"Name": "Key Lime Pie White Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:KeyLimePieWhiteChocolateBonbon_name}}",
 					"Description": "{{i18n:KeyLimePieWhiteChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -917,7 +917,7 @@
 				"ChocolatierContinued_ApplePieWhiteChocolateBonbon":
 				{
 					"Name": "Apple Pie White Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:ApplePieWhiteChocolateBonbon_name}}",
 					"Description": "{{i18n:ApplePieWhiteChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -933,7 +933,7 @@
 				"ChocolatierContinued_CinnamonExtraDarkChocolateBonbon":
 				{
 					"Name": "Cinnamon Extra Dark Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:CinnamonExtraDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:CinnamonExtraDarkChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
@@ -963,7 +963,7 @@
 				"ChocolatierContinued_AlmondNutmegWhiteChocolateBonbon":
 				{
 					"Name": "Almond Nutmeg White Chocolate Bonbon",
-					"Category": -7,
+					"Category": -26,
 					"DisplayName": "{{i18n:AlmondNutmegWhiteChocolateBonbon_name}}",
 					"Description": "{{i18n:AlmondNutmegWhiteChocolateBonbon_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
