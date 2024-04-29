@@ -2,7 +2,7 @@
 
 ## About
 
-This is a continuation/re-imagining of [Ritsunesan](https://www.nexusmods.com/stardewvalley/users/40687890)'s [Chocolatier](https://www.nexusmods.com/stardewvalley/mods/5403) mod rebuilt for **Stardew Valley 1.6** using **Content Patcher**, **Producer Framework Mod**, and relying on the [Cornucopia Team's](https://github.com/MizuJakkaru/Cornucopia/?tab=readme-ov-file#cornucopia-team) **Cornucopia mods** for the necessary prerequisites.
+This is a continuation/re-imagining of [Ritsunesan](https://www.nexusmods.com/stardewvalley/users/40687890)'s [Chocolatier](https://www.nexusmods.com/stardewvalley/mods/5403) mod rebuilt for **Stardew Valley 1.6** using **Content Patcher**, **Extra Machine Configs**, and relying on the [Cornucopia Team's](https://github.com/MizuJakkaru/Cornucopia/?tab=readme-ov-file#cornucopia-team) **Cornucopia mods** for the necessary prerequisites.
 
 I do plan on this mod being cross-compatible with other mods, including making use of ingredients those mods add to the game if possible.
 
@@ -10,7 +10,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 - SMAPI 4.x ([Website](https://smapi.io/)), ([Nexus](https://www.nexusmods.com/stardewvalley/mods/2400)), ([Github](https://github.com/Pathoschild/SMAPI/releases))
 - Content Patcher 2.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/1915))
-- Producer Framework Mod 1.9.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/4970))
+- Extra Machine Configs 1.3.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/22256)), ([Github](https://github.com/zombifier/My_Stardew_Mods/tree/master/ExtraMachineConfig))
 - Cornucopia - More Crops ([Nexus](https://www.nexusmods.com/stardewvalley/mods/19508))
 - Cornucopia - Artisan Machines *(coming soon)*
 - Cornucopia - Cooking Recipes *(coming soon)*
@@ -31,7 +31,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 #### 📍 So&hellip; Why Convert To Cooking/Crafting Recipes?
 
-The simple answer is that it makes things a lot easier for everyone. Using a single machine is very constraining, especially with how the Producer Framework Mod works *(I'm not going to go into detail here)*. Also, it makes more sense for these to be cooking/crafting items. I will likely increase the time needed to make every cauldron item (the base and candy coating chocolate types) to compensate for the conversion to cooking and crafting (which are instant).
+The simple answer is that it makes things a lot easier for everyone. Using a single machine is very constraining, especially with how machines work *(I'm not going to go into detail here)*. Also, it makes more sense for these to be cooking/crafting items.
 
 ### Planned Additions
 
@@ -51,7 +51,7 @@ The simple answer is that it makes things a lot easier for everyone. Using a sin
 
 #### 📍 So&hellip; Why More Machines?
 
-The simple answer is, again, that it makes things a lot easier for everyone. Having a dedicated machine for each type of chocolate artisan good means more varieties are possible, again due to how the Producer Framework Mod works. I realize that this means a higher capital/initial cost to making various artisan goods but that's reality, right? If needed and/or requested, I may re-balance machine costs and/or artisan good prices in the future.
+The simple answer is, again, that it makes things a lot easier for everyone. Having a dedicated machine for each type of chocolate artisan good means more varieties are possible, again due to how machines work. I realize that this means a higher capital/initial cost to making various artisan goods but that's reality, right? If needed and/or requested, I may re-balance machine costs and/or artisan good prices in the future.
 
 ## Configuration
 
