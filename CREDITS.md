@@ -19,10 +19,11 @@
 
 - **MizuJakkaru** for Matcha Powder and Vanilla Extract (modified from original)
 - **Ritsunesan** for the Chocolatier's Cauldron, Cocoa Powder, Powdered Milk (modified from original), and all other sprite assets from the original Chocolatier mod
+- **Harry Z.** (Discord **@harryzap**) for a 'certain' fish item idea
 
 ### Temporarily Embedded Asset Credits
 
-*These will be present while awaiting the release of* ***Cornucopia - Cooking Recipes***
+*These will be embedded in my mod while awaiting the release of* ***Cornucopia - Cooking Recipes***
 
 - **MizuJakkaru** for Brown Sugar, Caramel, Cream Cheese, and Marshmallow Fluff
 - **ParadigmNomad** for Graham Crackers and Soft Pretzel
