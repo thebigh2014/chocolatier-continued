@@ -4,7 +4,7 @@
 
 This is a continuation of [Ritsunesan](https://www.nexusmods.com/stardewvalley/users/40687890)'s [Chocolatier](https://www.nexusmods.com/stardewvalley/mods/5403) mod rebuilt for **Stardew Valley 1.6** using **Content Patcher**, **Extra Machine Configs**, and relying on the [Cornucopia Team's](https://github.com/MizuJakkaru/Cornucopia/?tab=readme-ov-file#cornucopia-team) **Cornucopia mods** for the necessary prerequisites.
 
-I do plan on this mod being cross-compatible with other mods, including making use of ingredients those mods add to the game if possible.
+I do plan on this mod being cross-compatible with other mods, including making use of ingredients those mods add to the game, if possible.
 
 ## Prerequisites
 
@@ -12,8 +12,10 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - Content Patcher 2.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/1915))
 - Extra Machine Configs 1.3.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/22256)), ([Github](https://github.com/zombifier/My_Stardew_Mods/tree/master/ExtraMachineConfig))
 - Cornucopia - More Crops 1.5.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/19508))
-- Cornucopia - Artisan Machines *(coming soon – an early version may be included with my mod depending on estimated release timeline)*
-- Cornucopia - Cooking Recipes *(coming soon – required items will be embedded in my mod until release)*
+- Cornucopia - Artisan Machines *(coming soon)*
+- Cornucopia - Cooking Recipes *(coming soon – required items will be embedded in my mod until its official release)*
+
+#### ⭐️ My mod _will not be_ released _until after_ Cornucopia - Artisan Machines.
 
 ## So&hellip; What's included?
 
@@ -27,7 +29,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - ✅ Covered Pretzels and Fruits *(as cooking recipes)*
 - ✏️ Boxes of Chocolates *(as crafting recipes)*
 
-### New Required Items
+### New Items/Machines
 
 - ✅ Base Chocolate Type: Bittersweet Chocolate (>60% Cocoa)
 - ✅ Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the primary ingredient for all covered items)
@@ -37,7 +39,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 #### 📍 So&hellip; Why Convert To Cooking/Crafting Recipes?
 
-The simple answer is that it makes things a lot easier for everyone. Using a single machine for all artisan goods is very constraining, especially with how machines work *(I'm not going to go into detail here)*. Also, it makes more sense for some of these to be cooking/crafting items.
+The simple answer is that it makes things a lot easier for everyone. Using a single machine for all artisan goods is very constraining, especially with how machines work. Also, it makes more sense for some of these to be cooking/crafting items.
 
 ### Planned Additions
 
@@ -55,7 +57,11 @@ The simple answer is that it makes things a lot easier for everyone. Using a sin
 
 #### 📍 So&hellip; Why More Machines?
 
-The simple answer is, again, that it makes things a lot easier for everyone. Having a dedicated machine for each type of chocolate artisan good means more varieties are possible, again due to how machines work. I realize that this means a higher capital/initial cost to making various artisan goods but that's reality, right? If needed and/or requested, I may re-balance machine costs and/or artisan good prices in the future.
+The simple answer is, again, that it makes things a lot easier for everyone. Having a dedicated machine for each type of chocolate artisan good means more varieties are possible. I realize that this means a higher capital/initial cost to making various artisan goods but that's reality, right? If needed and/or requested, I may re-balance machine costs and/or artisan good prices in the future.
+
+## Information Spreadsheet and Recipes
+
+*(coming soon)*
 
 ## Configuration
 
