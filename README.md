@@ -2,7 +2,7 @@
 
 ## About
 
-This is a continuation/re-imagining of [Ritsunesan](https://www.nexusmods.com/stardewvalley/users/40687890)'s [Chocolatier](https://www.nexusmods.com/stardewvalley/mods/5403) mod rebuilt for **Stardew Valley 1.6** using **Content Patcher**, **Extra Machine Configs**, and relying on the [Cornucopia Team's](https://github.com/MizuJakkaru/Cornucopia/?tab=readme-ov-file#cornucopia-team) **Cornucopia mods** for the necessary prerequisites.
+This is a continuation of [Ritsunesan](https://www.nexusmods.com/stardewvalley/users/40687890)'s [Chocolatier](https://www.nexusmods.com/stardewvalley/mods/5403) mod rebuilt for **Stardew Valley 1.6** using **Content Patcher**, **Extra Machine Configs**, and relying on the [Cornucopia Team's](https://github.com/MizuJakkaru/Cornucopia/?tab=readme-ov-file#cornucopia-team) **Cornucopia mods** for the necessary prerequisites.
 
 I do plan on this mod being cross-compatible with other mods, including making use of ingredients those mods add to the game if possible.
 
@@ -11,9 +11,9 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - SMAPI 4.x ([Website](https://smapi.io/)), ([Nexus](https://www.nexusmods.com/stardewvalley/mods/2400)), ([Github](https://github.com/Pathoschild/SMAPI/releases))
 - Content Patcher 2.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/1915))
 - Extra Machine Configs 1.3.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/22256)), ([Github](https://github.com/zombifier/My_Stardew_Mods/tree/master/ExtraMachineConfig))
-- Cornucopia - More Crops ([Nexus](https://www.nexusmods.com/stardewvalley/mods/19508))
-- Cornucopia - Artisan Machines *(coming soon)*
-- Cornucopia - Cooking Recipes *(coming soon)*
+- Cornucopia - More Crops 1.5.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/19508))
+- Cornucopia - Artisan Machines *(coming soon – an early version may be included with my mod depending on estimated release timeline)*
+- Cornucopia - Cooking Recipes *(coming soon – required items will be embedded in my mod until release)*
 
 ## So&hellip; What's included?
 
@@ -27,18 +27,22 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - ✏️ Covered Pretzels and Fruits *(as cooking recipes)*
 - 📋 Boxes of Chocolates *(as crafting recipes)*
 
-*The above items will __all__ be included in the initial release as well as anything needed and/or finished from below.*
+### New Required Items
+
+- ✅ Base Chocolate Type: Bittersweet Chocolate (>60% Cocoa)
+- ✅ Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the primary ingredient for all covered items)
+- ✅ Bonbon Chocolate Press (machine)
+
+#### ⭐️ __All__ of the above items will be included in the initial release.
 
 #### 📍 So&hellip; Why Convert To Cooking/Crafting Recipes?
 
-The simple answer is that it makes things a lot easier for everyone. Using a single machine is very constraining, especially with how machines work *(I'm not going to go into detail here)*. Also, it makes more sense for these to be cooking/crafting items.
+The simple answer is that it makes things a lot easier for everyone. Using a single machine for all artisan goods is very constraining, especially with how machines work *(I'm not going to go into detail here)*. Also, it makes more sense for some of these to be cooking/crafting items.
 
 ### Planned Additions
 
 - ✅ Truffle Powder
-- ✅ Base Chocolate Type: Bittersweet Chocolate (>60% Cocoa)
-- ✅ Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the primary ingredient for all covered items)
-- ✏️ Bonbon Chocolate Press, Bar Chocolate Press, Chocolate Infuser, and Truffle Extruder (machines)
+- 📋 Bar Chocolate Press, Chocolate Infuser, and Truffle Extruder (machines)
 - 📋 Bars (flat, rectangular chocolates)
 - 📋 Infusions (varyingly shaped chocolates infused with various ingredients)
 - 📋 Truffles (decadent spherical chocolates made using truffle powder)
