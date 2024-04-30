@@ -23,9 +23,9 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - ✅ Chocolatier's Cauldron (machine)
 - ✅ Base Chocolate Types: Milk, Semi-Sweet *(formerly dark)*, & White
 - ✏️ Bonbons (heart shaped chocolates; perfect for Valentine's)
-- ✏️ Peanut Butter Cups, Coins, Turtles, Fudge *(as cooking recipes)*
-- ✏️ Covered Pretzels and Fruits *(as cooking recipes)*
-- 📋 Boxes of Chocolates *(as crafting recipes)*
+- ✅ Peanut Butter Cups, Coins, Turtles, Fudge *(as cooking recipes)*
+- ✅ Covered Pretzels and Fruits *(as cooking recipes)*
+- ✏️ Boxes of Chocolates *(as crafting recipes)*
 
 ### New Required Items
 
