@@ -17,7 +17,7 @@
 
 ## Detailed Asset Credits
 
-- **MizuJakkaru** for Matcha Powder and Vanilla Extract (modified from original)
+- **MizuJakkaru** for Covered Strawberries, Fudge, Matcha Powder, Peanut Butter Cups, and Vanilla Extract (modified from originals)
 - **Ritsunesan** for the Chocolatier's Cauldron, Cocoa Powder, Powdered Milk (modified from original), and all other sprite assets from the original Chocolatier mod
 - **Harry Z.** (Discord **@harryzap**) for a 'certain' fish item idea
 
