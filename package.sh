@@ -10,26 +10,20 @@ fi
 
 cd "out";
 
-if [ -d "Chocolatier Continued" ]; then
+if [ -d "[CP] Chocolatier Continued" ]; then
 	echo "> Removing Existing Release Directory...";
-	rm -r "Chocolatier Continued";
+	rm -r "[CP] Chocolatier Continued";
 fi
 
-mkdir "Chocolatier Continued";
+cp -R ../"[CP] Chocolatier Continued" ./;
 
-cd "Chocolatier Continued";
-
-cp -R ../../\[CP* ./;
-
-cp ../../LICENSE ../../README.md ../../CREDITS.md ./\[CP*/;
-
-cd ../;
+cp ../LICENSE ../README.md ../CREDITS.md ./\[CP*/;
 
 if [ -f "Chocolatier Continued.zip" ]; then
 	echo "> Removing Existing Release Archive...";
 	rm "Chocolatier Continued.zip";
 fi
 
-zip -q -0 -r "Chocolatier Continued.zip" "Chocolatier Continued"
+zip -q -0 -r "Chocolatier Continued.zip" "[CP] Chocolatier Continued"
 
 echo "Packaging Complete!"

@@ -154,6 +154,62 @@
 				}
 			}
 		},
+		{
+			"LogName": "Load Updated Machines",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)13", "OutputRules" ],
+			"Entries":
+			{
+				"ChocolatierContinued_PotassiumCarbonate_F":
+				{
+					"Id": "ChocolatierContinued_PotassiumCarbonate_F",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)ChocolatierContinued_Potash",
+							"RequiredCount": 2,
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_PotassiumCarbonate",
+						}
+					],
+					"MinutesUntilReady": 620
+				}
+			}
+		},
+		{
+			"LogName": "Load Updated Machines",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)HeavyFurnace", "OutputRules" ],
+			"Entries":
+			{
+				"ChocolatierContinued_PotassiumCarbonate_HF":
+				{
+					"Id": "ChocolatierContinued_PotassiumCarbonate_HF",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)ChocolatierContinued_Potash",
+							"RequiredCount": 10,
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_PotassiumCarbonate",
+							"MinStack": 5,
+							"MaxStack": 6
+						}
+					],
+					"MinutesUntilReady": 620
+				}
+			}
+		},
 		/* Chocolatier Continued New Machines */
 		{
 			"LogName": "Load New Machines",
@@ -165,6 +221,50 @@
 				{
 					"OutputRules":
 					[
+						{
+							"Id": "ChocolatierContinued_DoubleDutchedCocoaPowder",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)ChocolatierContinued_DutchedCocoaPowder",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_PotassiumCarbonate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "2",
+									},
+									"ItemId": "(O)ChocolatierContinued_DoubleDutchedCocoaPowder",
+								}
+							],
+							"MinutesUntilReady": 360
+						},
+						{
+							"Id": "ChocolatierContinued_DutchedCocoaPowder",
+							"Triggers":
+							[
+								{
+									"RequiredItemId": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+									"RequiredCount": 1,
+								}
+							],
+							"OutputItem":
+							[
+								{
+									"CustomData":
+									{
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_PotassiumCarbonate",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
+									},
+									"ItemId": "(O)ChocolatierContinued_DutchedCocoaPowder",
+								}
+							],
+							"MinutesUntilReady": 180
+						},
 						{
 							"Id": "ChocolatierContinued_MilkChocolate",
 							"Triggers":
@@ -196,7 +296,7 @@
 							"Triggers":
 							[
 								{
-									"RequiredItemId": "(O)Cornucopia_SeaSalt",
+									"RequiredItemId": "(O)Cornucopia_Salt",
 									"RequiredCount": 1,
 								}
 							],
@@ -205,8 +305,8 @@
 								{
 									"CustomData":
 									{
-										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
-										"selph.ExtraMachineConfig.RequirementCount.1": "2",
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_DoubleDutchedCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementCount.1": "1",
 										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_CoconutOil",
 										"selph.ExtraMachineConfig.RequirementCount.2": "1",
 										"selph.ExtraMachineConfig.RequirementId.3": "(O)245",
@@ -231,9 +331,9 @@
 								{
 									"CustomData":
 									{
-										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_DutchedCocoaPowder",
 										"selph.ExtraMachineConfig.RequirementCount.1": "1",
-										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_SeaSalt",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_Salt",
 										"selph.ExtraMachineConfig.RequirementCount.2": "1",
 										"selph.ExtraMachineConfig.RequirementId.3": "(O)245",
 										"selph.ExtraMachineConfig.RequirementCount.3": "1",
@@ -304,7 +404,7 @@
 							"Triggers":
 							[
 								{
-									"RequiredItemId": "(O)245",
+									"RequiredItemId": "(O)ChocolatierContinued_DoubleDutchedCocoaPowder",
 									"RequiredCount": 1,
 								}
 							],
@@ -315,8 +415,8 @@
 									{
 										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_VanillaExtract",
 										"selph.ExtraMachineConfig.RequirementCount.1": "1",
-										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
-										"selph.ExtraMachineConfig.RequirementCount.2": "2",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+										"selph.ExtraMachineConfig.RequirementCount.2": "1",
 										"selph.ExtraMachineConfig.RequirementId.3": "(O)Cornucopia_CocoaButter",
 										"selph.ExtraMachineConfig.RequirementCount.3": "1",
 										"selph.ExtraMachineConfig.RequirementId.4": "(O)Cornucopia_Salt",
@@ -334,7 +434,7 @@
 							"Triggers":
 							[
 								{
-									"RequiredItemId": "(O)Cornucopia_Salt",
+									"RequiredItemId": "(O)ChocolatierContinued_DutchedCocoaPowder",
 									"RequiredCount": 1,
 								}
 							],
@@ -343,7 +443,7 @@
 								{
 									"CustomData":
 									{
-										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)Cornucopia_Salt",
 										"selph.ExtraMachineConfig.RequirementCount.1": "1",
 										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_VanillaExtract",
 										"selph.ExtraMachineConfig.RequirementCount.2": "1",

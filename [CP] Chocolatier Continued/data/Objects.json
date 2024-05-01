@@ -20,7 +20,40 @@
 					"Edibility": -300,
 					"ContextTags":
 					[
-						"color_brown"
+						"color_brown",
+						"dye_medium"
+					]
+				},
+				"ChocolatierContinued_DoubleDutchedCocoaPowder":
+				{
+					"Name": "Double-Dutched Cocoa Powder",
+					"Category": -26,
+					"DisplayName": "{{i18n:DoubleDutchedCocoaPowder_name}}",
+					"Description": "{{i18n:DoubleDutchedCocoaPowder_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 61,
+					"Price": 595,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_dark_brown",
+						"dye_strong"
+					]
+				},
+				"ChocolatierContinued_DutchedCocoaPowder":
+				{
+					"Name": "Dutched Cocoa Powder",
+					"Category": -26,
+					"DisplayName": "{{i18n:DutchedCocoaPowder_name}}",
+					"Description": "{{i18n:DutchedCocoaPowder_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 60,
+					"Price": 450,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_brown",
+						"dye_strong"
 					]
 				},
 				"ChocolatierContinued_MatchaPowder":
@@ -50,6 +83,37 @@
 					"ContextTags":
 					[
 						"color_orange",
+						"dye_strong"
+					]
+				},
+				"ChocolatierContinued_Potash":
+				{
+					"Name": "Potash",
+					"Category": -12,
+					"DisplayName": "{{i18n:Potash_name}}",
+					"Description": "{{i18n:Potash_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 58,
+					"Price": 80,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_sand"
+					]
+				},
+				"ChocolatierContinued_PotassiumCarbonate":
+				{
+					"Name": "Potassium Carbonate",
+					"Category": -26,
+					"DisplayName": "{{i18n:PotassiumCarbonate_name}}",
+					"Description": "{{i18n:PotassiumCarbonate_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 59,
+					"Price": 320,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_white",
 						"dye_strong"
 					]
 				},
@@ -123,7 +187,7 @@
 					"Description": "{{i18n:BittersweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 6,
-					"Price": 550,
+					"Price": 755,
 					"Edibility": 25,
 					"ContextTags":
 					[
@@ -139,7 +203,7 @@
 					"Description": "{{i18n:SemiSweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 7,
-					"Price": 420,
+					"Price": 610,
 					"Edibility": 25,
 					"ContextTags":
 					[
@@ -186,7 +250,7 @@
 					"Description": "{{i18n:CouvertureBittersweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 10,
-					"Price": 880,
+					"Price": 1055,
 					"Edibility": 35,
 					"ContextTags":
 					[
@@ -202,7 +266,7 @@
 					"Description": "{{i18n:CouvertureSemiSweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
 					"SpriteIndex": 11,
-					"Price": 765,
+					"Price": 940,
 					"Edibility": 35,
 					"ContextTags":
 					[
@@ -977,6 +1041,26 @@
 					]
 				},
 			}
-		}
+		},
+		{
+			"LogName": "Update Object Data - Potash in Geode Drops",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "749", "GeodeDrops", "#1", "RandomItemID" ],
+			"Entries":
+			{
+				"#-1": "(O)ChocolatierContinued_Potash"
+			}
+		},
+		{
+			"LogName": "Update Object Data - Potash in Geode Drops",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "537", "GeodeDrops", "#0", "RandomItemID" ],
+			"Entries":
+			{
+				"#-1": "(O)ChocolatierContinued_Potash"
+			}
+		},
 	]
 }
