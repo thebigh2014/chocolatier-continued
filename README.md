@@ -31,6 +31,8 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 ### New Items/Machines
 
+- ✅ Potash (geode drop) and Potassium Carbonate (refined in furnace; for alkalizing cocoa powder)
+- ✅ Dutched and Double-Dutched Cocoa Powder (for making semi-sweet and bittersweet chocolate, respectively)
 - ✅ Base Chocolate Type: Bittersweet Chocolate (>60% Cocoa)
 - ✅ Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the primary ingredient for all covered items)
 - ✅ Bonbon Chocolate Press (machine)
