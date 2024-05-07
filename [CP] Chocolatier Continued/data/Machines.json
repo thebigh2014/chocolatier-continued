@@ -499,7 +499,7 @@
 					],
 					"WobbleWhileWorking": true,
 					"ShowNextIndexWhileWorking": true,
-					"ShowNextIndexWhenReady": true
+					"ShowNextIndexWhenReady": false
 				},
 				"(BC)ChocolatierContinued_BonbonChocolatePress": 
 				{
@@ -779,7 +779,7 @@
 					],
 					"WobbleWhileWorking": true,
 					"ShowNextIndexWhileWorking": true,
-					"ShowNextIndexWhenReady": true
+					"ShowNextIndexWhenReady": false
 				},
 			}
 		},

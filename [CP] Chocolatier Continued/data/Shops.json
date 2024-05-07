@@ -22,6 +22,7 @@
 				{
 					"Id": "ChocolatierContinued_IridiumExtraDarkChocolateCoins (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_IridiumExtraDarkChocolateCoins",
+					"Condition": "PLAYER_HEARTS Current Dwarf 4",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 2000,
@@ -94,6 +95,7 @@
 				{
 					"Id": "ChocolatierContinued_DarkChocolateCoveredStarfruit (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_DarkChocolateCoveredStarfruit",
+					"Condition": "PLAYER_HEARTS Current Sandy 5",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 500,
@@ -104,6 +106,7 @@
 				{
 					"Id": "ChocolatierContinued_ExtraDarkChocolateCoveredStarfruit (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolateCoveredStarfruit",
+					"Condition": "PLAYER_HEARTS Current Sandy 5",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 500,
@@ -114,6 +117,7 @@
 				{
 					"Id": "ChocolatierContinued_MilkChocolateCoveredStarfruit (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_MilkChocolateCoveredStarfruit",
+					"Condition": "PLAYER_HEARTS Current Sandy 5",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 500,
@@ -124,6 +128,7 @@
 				{
 					"Id": "ChocolatierContinued_WhiteChocolateCoveredStarfruit (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_WhiteChocolateCoveredStarfruit",
+					"Condition": "PLAYER_HEARTS Current Sandy 5",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 500,
@@ -183,6 +188,7 @@
 				{
 					"Id": "ChocolatierContinued_LeFisheAuChocolat (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_LeFisheAuChocolat",
+					"Condition": "PLAYER_HEARTS Current Willy 6",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 50,
@@ -198,13 +204,47 @@
 			"TargetField": [ "Saloon", "Items" ],
 			"Entries":
 			{
-				"ChocolatierContinued_ChocolateOrange":
+				"ChocolatierContinued_DarkChocolateOrange":
 				{
-					"Id": "ChocolatierContinued_ChocolateOrange (Recipe)",
-					"ItemId": "(O)ChocolatierContinued_ChocolateOrange",
+					"Id": "ChocolatierContinued_DarkChocolateOrange (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_DarkChocolateOrange",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 7",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 850,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_ExtraDarkChocolateOrange":
+				{
+					"Id": "ChocolatierContinued_ExtraDarkChocolateOrange (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolateOrange",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 7",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 1000,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_MilkChocolateOrange":
+				{
+					"Id": "ChocolatierContinued_MilkChocolateOrange (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_MilkChocolateOrange",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 7",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 750,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_WhiteChocolateOrange":
+				{
+					"Id": "ChocolatierContinued_WhiteChocolateOrange (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_WhiteChocolateOrange",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 7",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 650,
 					"IsRecipe": true,
 					"IgnoreShopPriceModifiers": true
 				},
@@ -212,6 +252,7 @@
 				{
 					"Id": "ChocolatierContinued_DarkChocolatePeanutButterCups (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_DarkChocolatePeanutButterCups",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 6",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 250,
@@ -222,6 +263,7 @@
 				{
 					"Id": "ChocolatierContinued_ExtraDarkChocolatePeanutButterCups (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolatePeanutButterCups",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 6",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 250,
@@ -232,6 +274,7 @@
 				{
 					"Id": "ChocolatierContinued_MilkChocolatePeanutButterCups (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_MilkChocolatePeanutButterCups",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 6",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 250,
@@ -242,6 +285,7 @@
 				{
 					"Id": "ChocolatierContinued_WhiteChocolatePeanutButterCups (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_WhiteChocolatePeanutButterCups",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 6",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 250,
@@ -252,6 +296,7 @@
 				{
 					"Id": "ChocolatierContinued_DarkChocolateCoveredPretzel (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_DarkChocolateCoveredPretzel",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 4",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 200,
@@ -262,6 +307,7 @@
 				{
 					"Id": "ChocolatierContinued_ExtraDarkChocolateCoveredPretzel (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolateCoveredPretzel",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 4",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 200,
@@ -272,6 +318,7 @@
 				{
 					"Id": "ChocolatierContinued_MilkChocolateCoveredPretzel (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_MilkChocolateCoveredPretzel",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 4",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 200,
@@ -282,6 +329,7 @@
 				{
 					"Id": "ChocolatierContinued_WhiteChocolateCoveredPretzel (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_WhiteChocolateCoveredPretzel",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 4",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 200,
@@ -297,10 +345,22 @@
 			"TargetField": [ "AnimalShop", "Items" ],
 			"Entries":
 			{
+				"ChocolatierContinued_ExtraDarkChocolateCaramelFudge":
+				{
+					"Id": "ChocolatierContinued_ExtraDarkChocolateCaramelFudge (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_ExtraDarkChocolateCaramelFudge",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Marnie 5",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 1200,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
 				"ChocolatierContinued_MilkChocolateOrangeFudge":
 				{
 					"Id": "ChocolatierContinued_MilkChocolateOrangeFudge (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_MilkChocolateOrangeFudge",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Marnie 5",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 1000,
@@ -311,6 +371,7 @@
 				{
 					"Id": "ChocolatierContinued_WhiteChocolateCookiesNCremeFudge (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_WhiteChocolateCookiesNCremeFudge",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Marnie 5",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 1100,
@@ -334,6 +395,7 @@
 				{
 					"Id": "ChocolatierContinued_AssortedChocolateTurtles (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_AssortedChocolateTurtles",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Gus 5",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
 					"Price": 1500,
@@ -357,9 +419,10 @@
 				{
 					"Id": "ChocolatierContinued_DarkChocolateMintFudge (Recipe)",
 					"ItemId": "(O)ChocolatierContinued_DarkChocolateMintFudge",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Marnie 5",
 					"AvailableStock": 1,
 					"AvailableStockLimit": "Player",
-					"Price": 750,
+					"Price": 1000,
 					"IsRecipe": true,
 					"IgnoreShopPriceModifiers": true
 				},
