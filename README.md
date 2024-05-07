@@ -50,7 +50,7 @@ The simple answer is that it makes things a lot easier for everyone. Using a sin
 - 📋 Bars (flat, rectangular chocolates)
 - 📋 Infusions (varyingly shaped chocolates infused with various ingredients)
 - 📋 Truffles (decadent spherical chocolates made using truffle powder)
-- 📋 Sauces (somewhat akin to nut butters but featuring chocolate; *as cooking recipes*)
+- 📋 Sauces/Syrups (somewhat akin to nut butters but featuring chocolate; *as cooking recipes*)
 - 📋 Chocolate and Caramel Eggs (bags of delicate small and large eggs; perfect for Easter; *as cooking recipes*)
 - 📋 Chocolate Drinks, including Hot Cocoa, Mochas, Milkshakes, etc.
 - 📋 Chocolate Desserts, including Mousse Cups, Cakes, Pies, etc.
