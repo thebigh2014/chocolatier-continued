@@ -381,6 +381,26 @@
 			}
 		},
 		{
+			"LogName": "Load Shop Cooking Recipes - Carpenter",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "Carpenter", "Items" ],
+			"Entries":
+			{
+				"ChocolatierContinued_BonbonChocolatePress":
+				{
+					"Id": "ChocolatierContinued_BonbonChocolatePress (Recipe)",
+					"ItemId": "(BC)ChocolatierContinued_BonbonChocolatePress",
+					"Condition": "YEAR 2, PLAYER_HEARTS Current Robin 4",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 10000,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+			}
+		},
+		{
 			"LogName": "Load Shop Cooking Recipes - CMC Extended Trees",
 			"Action": "EditData",
 			"Target": "Data/Shops",

@@ -805,7 +805,7 @@
 				/* Bonbons - No Extra Dependencies */
 				"ChocolatierContinued_BlueberryDarkChocolateBonbon":
 				{
-					"Name": "Blueberry Dark Chocolate Bonbon",
+					"Name": "Dark Chocolate Blueberry Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:BlueberryDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:BlueberryDarkChocolateBonbon_description}}",
@@ -822,7 +822,7 @@
 				},
 				"ChocolatierContinued_CafeAuLaitDarkChocolateBonbon":
 				{
-					"Name": "Cafe Au Lait Dark Chocolate Bonbon",
+					"Name": "Dark Chocolate Cafe Au Lait Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:CafeAuLaitDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:CafeAuLaitDarkChocolateBonbon_description}}",
@@ -839,7 +839,7 @@
 				},
 				"ChocolatierContinued_PistachioDarkChocolateBonbon":
 				{
-					"Name": "Pistachio Dark Chocolate Bonbon",
+					"Name": "Dark Chocolate Pistachio Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:PistachioDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:PistachioDarkChocolateBonbon_description}}",
@@ -856,7 +856,7 @@
 				},
 				"ChocolatierContinued_RaspberryDarkChocolateBonbon":
 				{
-					"Name": "Raspberry Dark Chocolate Bonbon",
+					"Name": "Dark Chocolate Raspberry Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:RaspberryDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:RaspberryDarkChocolateBonbon_description}}",
@@ -873,7 +873,7 @@
 				},
 				"ChocolatierContinued_CoconutExtraDarkChocolateBonbon":
 				{
-					"Name": "Coconut Extra Dark Chocolate Bonbon",
+					"Name": "Extra Dark Chocolate Coconut Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:CoconutExtraDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:CoconutExtraDarkChocolateBonbon_description}}",
@@ -890,7 +890,7 @@
 				},
 				"ChocolatierContinued_MatchaExtraDarkChocolateBonbon":
 				{
-					"Name": "Matcha Extra Dark Chocolate Bonbon",
+					"Name": "Extra Dark Chocolate Matcha Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:MatchaExtraDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:MatchaExtraDarkChocolateBonbon_description}}",
@@ -907,7 +907,7 @@
 				},
 				"ChocolatierContinued_PineappleExtraDarkChocolateBonbon":
 				{
-					"Name": "Pineapple Extra Dark Chocolate Bonbon",
+					"Name": "Extra Dark Chocolate Pineapple Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:PineappleExtraDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:PineappleExtraDarkChocolateBonbon_description}}",
@@ -924,7 +924,7 @@
 				},
 				"ChocolatierContinued_CaramelMilkChocolateBonbon":
 				{
-					"Name": "Caramel Milk Chocolate Bonbon",
+					"Name": "Milk Chocolate Caramel Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:CaramelMilkChocolateBonbon_name}}",
 					"Description": "{{i18n:CaramelMilkChocolateBonbon_description}}",
@@ -941,7 +941,7 @@
 				},
 				"ChocolatierContinued_HazelnutMilkChocolateBonbon":
 				{
-					"Name": "Hazelnut Milk Chocolate Bonbon",
+					"Name": "Milk Chocolate Hazelnut Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:HazelnutMilkChocolateBonbon_name}}",
 					"Description": "{{i18n:HazelnutMilkChocolateBonbon_description}}",
@@ -958,7 +958,7 @@
 				},
 				"ChocolatierContinued_SmoresMilkChocolateBonbon":
 				{
-					"Name": "S'mores Milk Chocolate Bonbon",
+					"Name": "Milk Chocolate S'mores Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:SmoresMilkChocolateBonbon_name}}",
 					"Description": "{{i18n:SmoresMilkChocolateBonbon_description}}",
@@ -1007,7 +1007,7 @@
 				/* Bonbons - Cornucopia More Crops - Extended Trees Dependency */
 				"ChocolatierContinued_VanillaWalnutMilkChocolateBonbon":
 				{
-					"Name": "Vanilla Walnut Milk Chocolate Bonbon",
+					"Name": "Milk Chocolate Vanilla Walnut Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:VanillaWalnutMilkChocolateBonbon_name}}",
 					"Description": "{{i18n:VanillaWalnutMilkChocolateBonbon_description}}",
@@ -1024,7 +1024,7 @@
 				},
 				"ChocolatierContinued_LemonMeringuePieWhiteChocolateBonbon":
 				{
-					"Name": "Lemon Meringue Pie White Chocolate Bonbon",
+					"Name": "White Chocolate Lemon Meringue Pie Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:LemonMeringuePieWhiteChocolateBonbon_name}}",
 					"Description": "{{i18n:LemonMeringuePieWhiteChocolateBonbon_description}}",
@@ -1041,7 +1041,7 @@
 				},
 				"ChocolatierContinued_KeyLimePieWhiteChocolateBonbon":
 				{
-					"Name": "Key Lime Pie White Chocolate Bonbon",
+					"Name": "White Chocolate Key Lime Pie Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:KeyLimePieWhiteChocolateBonbon_name}}",
 					"Description": "{{i18n:KeyLimePieWhiteChocolateBonbon_description}}",
@@ -1089,7 +1089,7 @@
 				/* Bonbons - Cornucopia More Crops - Herbs Dependency */
 				"ChocolatierContinued_ApplePieWhiteChocolateBonbon":
 				{
-					"Name": "Apple Pie White Chocolate Bonbon",
+					"Name": "White Chocolate Apple Pie Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:ApplePieWhiteChocolateBonbon_name}}",
 					"Description": "{{i18n:ApplePieWhiteChocolateBonbon_description}}",
@@ -1106,7 +1106,7 @@
 				},
 				"ChocolatierContinued_CinnamonExtraDarkChocolateBonbon":
 				{
-					"Name": "Cinnamon Extra Dark Chocolate Bonbon",
+					"Name": "Extra Dark Chocolate Cinnamon Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:CinnamonExtraDarkChocolateBonbon_name}}",
 					"Description": "{{i18n:CinnamonExtraDarkChocolateBonbon_description}}",
@@ -1137,7 +1137,7 @@
 				/* Bonbons - Cornucopia More Crops - Extended Trees AND Herbs Dependencies */
 				"ChocolatierContinued_AlmondNutmegWhiteChocolateBonbon":
 				{
-					"Name": "Almond Nutmeg White Chocolate Bonbon",
+					"Name": "White Chocolate Almond Nutmeg Bonbon",
 					"Category": -26,
 					"DisplayName": "{{i18n:AlmondNutmegWhiteChocolateBonbon_name}}",
 					"Description": "{{i18n:AlmondNutmegWhiteChocolateBonbon_description}}",
