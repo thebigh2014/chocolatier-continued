@@ -786,7 +786,7 @@
 				},
 				"ChocolatierContinued_WhiteChocolateCookiesNCremeFudge":
 				{
-					"Name": "White Chocolate Cookies 'n Creme Fudge",
+					"Name": "White Chocolate Cookies 'n' Creme Fudge",
 					"Category": -7,
 					"DisplayName": "{{i18n:WhiteChocolateCookiesNCremeFudge_name}}",
 					"Description": "{{i18n:WhiteChocolateCookiesNCremeFudge_description}}",
