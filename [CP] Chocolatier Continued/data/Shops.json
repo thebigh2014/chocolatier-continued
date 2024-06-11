@@ -407,7 +407,7 @@
 			"TargetField": [ "Saloon", "Items" ],
 			"When":
 			{
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 			},
 			"Entries":
 			{
@@ -431,7 +431,7 @@
 			"TargetField": [ "AnimalShop", "Items" ],
 			"When":
 			{
-				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
 			"Entries":
 			{

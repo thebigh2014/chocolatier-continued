@@ -4,6 +4,10 @@
 		{
 			"LogName": "Load Object Replacement Data",
 			"Action": "EditData",
+			"When":
+			{
+				"Replace Chocolate Cake Recipe": true
+			},
 			"Target": "Data/CookingRecipes",
 			"Fields":
 			{

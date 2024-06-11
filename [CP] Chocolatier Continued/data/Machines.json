@@ -790,7 +790,7 @@
 			"TargetField": [ "(BC)ChocolatierContinued_BonbonChocolatePress", "OutputRules" ],
 			"When":
 			{
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 			},
 			"Entries": 
 			{
@@ -886,7 +886,7 @@
 			"TargetField": [ "(BC)ChocolatierContinued_BonbonChocolatePress", "OutputRules" ],
 			"When":
 			{
-				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
 			"Entries": 
 			{
@@ -953,8 +953,8 @@
 			"TargetField": [ "(BC)ChocolatierContinued_BonbonChocolatePress", "OutputRules" ],
 			"When":
 			{
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
 			"Entries": 
 			{

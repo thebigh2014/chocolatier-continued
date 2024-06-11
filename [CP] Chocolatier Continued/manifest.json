@@ -14,12 +14,12 @@
 	[
 		{
 			"UniqueID": "Cornucopia.MoreCrops",
-			"MinimumVersion": "1.5.1",
+			"MinimumVersion": "1.5.0",
 			"IsRequired": true
 		},
 		{
 			"UniqueID": "Cornucopia.ArtisanMachines",
-			"MinimumVersion": "0.0.1",
+			"MinimumVersion": "1.0.0",
 			"IsRequired": true
 		},
 		{
@@ -27,10 +27,10 @@
 			"MinimumVersion": "1.3.3",
 			"IsRequired": true
 		},
-		{
+		/*{
 			"UniqueID": "Cornucopia.CookingRecipes",
 			"MinimumVersion": "0.0.1",
 			"IsRequired": false
-		},
+		},*/
 	]
 }
