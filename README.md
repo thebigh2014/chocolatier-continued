@@ -12,7 +12,7 @@ I do plan on this mod being cross-compatible with other mods, including making u
 - Content Patcher ≥ 2.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/1915))
 - Extra Machine Configs ≥ 1.4.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/22256)), ([Github](https://github.com/zombifier/My_Stardew_Mods/tree/master/ExtraMachineConfig))
 - Cornucopia - More Crops ≥ 1.5.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/19508))
-- Cornucopia - Artisan Machines ≥ 1.x.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/24842))
+- Cornucopia - Artisan Machines ≥ 1.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/24842))
 - Cornucopia - Cooking Recipes *(coming soon – required items will be embedded in my mod until its official release)*
 
 ## So&hellip; What's included?
