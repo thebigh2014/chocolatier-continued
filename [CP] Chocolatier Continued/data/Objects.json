@@ -8,6 +8,38 @@
 			"Entries":
 			{
 				/* Base Ingredients */
+				"ChocolatierContinued_CocoaOil":
+				{
+					"Name": "Cocoa Oil",
+					"Category": -26,
+					"DisplayName": "{{i18n:CocoaOil_name}}",
+					"Description": "{{i18n:CocoaOil_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 0,
+					"Price": 155,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_tan",
+						"dye_medium"
+					]
+				},
+				"ChocolatierContinued_CocoaSolids":
+				{
+					"Name": "Cocoa Solids",
+					"Category": -26,
+					"DisplayName": "{{i18n:CocoaSolids_name}}",
+					"Description": "{{i18n:CocoaSolids_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 1,
+					"Price": 155,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_brown",
+						"dye_medium"
+					]
+				},
 				"ChocolatierContinued_ChocolatierCocoaPowder":
 				{
 					"Name": "Cocoa Powder",
@@ -15,7 +47,7 @@
 					"DisplayName": "{{i18n:CocoaPowder_name}}",
 					"Description": "{{i18n:CocoaPowder_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 0,
+					"SpriteIndex": 2,
 					"Price": 250,
 					"Edibility": -300,
 					"ContextTags":
@@ -25,15 +57,15 @@
 						"cocoa_powder"
 					]
 				},
-				"ChocolatierContinued_DoubleDutchedCocoaPowder":
+				"ChocolatierContinued_TripleCocoaPowder":
 				{
-					"Name": "Double-Dutched Cocoa Powder",
+					"Name": "Triple Cocoa Powder",
 					"Category": -26,
-					"DisplayName": "{{i18n:DoubleDutchedCocoaPowder_name}}",
-					"Description": "{{i18n:DoubleDutchedCocoaPowder_description}}",
+					"DisplayName": "{{i18n:TripleCocoaPowder_name}}",
+					"Description": "{{i18n:TripleCocoaPowder_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 2,
-					"Price": 595,
+					"SpriteIndex": 4,
+					"Price": 515,
 					"Edibility": -300,
 					"ContextTags":
 					[
@@ -49,8 +81,8 @@
 					"DisplayName": "{{i18n:DutchedCocoaPowder_name}}",
 					"Description": "{{i18n:DutchedCocoaPowder_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 1,
-					"Price": 450,
+					"SpriteIndex": 3,
+					"Price": 355,
 					"Edibility": -300,
 					"ContextTags":
 					[
@@ -66,7 +98,7 @@
 					"DisplayName": "{{i18n:MatchaPowder_name}}",
 					"Description": "{{i18n:MatchaPowder_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 3,
+					"SpriteIndex": 10,
 					"Price": 150,
 					"Edibility": -300,
 					"ContextTags":
@@ -80,7 +112,7 @@
 					"DisplayName": "{{i18n:OrangeOil_name}}",
 					"Description": "{{i18n:OrangeOil_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 4,
+					"SpriteIndex": 16,
 					"Price": 200,
 					"Edibility": -300,
 					"ContextTags":
@@ -96,7 +128,7 @@
 					"DisplayName": "{{i18n:Potash_name}}",
 					"Description": "{{i18n:Potash_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 5,
+					"SpriteIndex": 6,
 					"Price": 80,
 					"Edibility": -300,
 					"ContextTags":
@@ -111,7 +143,7 @@
 					"DisplayName": "{{i18n:PotassiumCarbonate_name}}",
 					"Description": "{{i18n:PotassiumCarbonate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 6,
+					"SpriteIndex": 7,
 					"Price": 320,
 					"Edibility": -300,
 					"ContextTags":
@@ -127,7 +159,7 @@
 					"DisplayName": "{{i18n:PowderedMilk_name}}",
 					"Description": "{{i18n:PowderedMilk_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 7,
+					"SpriteIndex": 11,
 					"Price": 240,
 					"Edibility": -300,
 					"ContextTags":
@@ -142,7 +174,7 @@
 					"DisplayName": "{{i18n:TrufflePowder_name}}",
 					"Description": "{{i18n:TrufflePowder_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 8,
+					"SpriteIndex": 12,
 					"Price": 900,
 					"Edibility": -300,
 					"ContextTags":
@@ -156,7 +188,7 @@
 					"DisplayName": "{{i18n:VanillaExtract_name}}",
 					"Description": "{{i18n:VanillaExtract_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 9,
+					"SpriteIndex": 13,
 					"Price": 250,
 					"Edibility": -300,
 					"ContextTags":
@@ -173,8 +205,8 @@
 					"DisplayName": "{{i18n:MilkChocolate_name}}",
 					"Description": "{{i18n:MilkChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 10,
-					"Price": 535,
+					"SpriteIndex": 20,
+					"Price": 465,
 					"Edibility": 25,
 					"ContextTags":
 					[
@@ -191,8 +223,8 @@
 					"DisplayName": "{{i18n:BittersweetChocolate_name}}",
 					"Description": "{{i18n:BittersweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 11,
-					"Price": 755,
+					"SpriteIndex": 21,
+					"Price": 685,
 					"Edibility": 25,
 					"ContextTags":
 					[
@@ -209,8 +241,8 @@
 					"DisplayName": "{{i18n:SemiSweetChocolate_name}}",
 					"Description": "{{i18n:SemiSweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 12,
-					"Price": 610,
+					"SpriteIndex": 22,
+					"Price": 535,
 					"Edibility": 25,
 					"ContextTags":
 					[
@@ -227,8 +259,8 @@
 					"DisplayName": "{{i18n:WhiteChocolate_name}}",
 					"Description": "{{i18n:WhiteChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 13,
-					"Price": 540,
+					"SpriteIndex": 23,
+					"Price": 475,
 					"Edibility": 25,
 					"ContextTags":
 					[
@@ -244,8 +276,8 @@
 					"DisplayName": "{{i18n:CouvertureMilkChocolate_name}}",
 					"Description": "{{i18n:CouvertureMilkChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 14,
-					"Price": 850,
+					"SpriteIndex": 25,
+					"Price": 705,
 					"Edibility": 35,
 					"ContextTags":
 					[
@@ -263,8 +295,8 @@
 					"DisplayName": "{{i18n:CouvertureBittersweetChocolate_name}}",
 					"Description": "{{i18n:CouvertureBittersweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 15,
-					"Price": 1055,
+					"SpriteIndex": 26,
+					"Price": 920,
 					"Edibility": 35,
 					"ContextTags":
 					[
@@ -282,8 +314,8 @@
 					"DisplayName": "{{i18n:CouvertureSemiSweetChocolate_name}}",
 					"Description": "{{i18n:CouvertureSemiSweetChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 16,
-					"Price": 940,
+					"SpriteIndex": 27,
+					"Price": 790,
 					"Edibility": 35,
 					"ContextTags":
 					[
@@ -301,8 +333,8 @@
 					"DisplayName": "{{i18n:CouvertureWhiteChocolate_name}}",
 					"Description": "{{i18n:CouvertureWhiteChocolate_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 17,
-					"Price": 670,
+					"SpriteIndex": 28,
+					"Price": 540,
 					"Edibility": 35,
 					"ContextTags":
 					[
@@ -313,6 +345,38 @@
 					]
 				},
 				/* First Round Cooking Items - No Extra Dependencies */
+				"ChocolatierContinued_CopperWhiteChocolateCoins":
+				{
+					"Name": "Copper White Chocolate Coins",
+					"Category": -7,
+					"DisplayName": "{{i18n:CopperWhiteChocolateCoins_name}}",
+					"Description": "{{i18n:CopperWhiteChocolateCoins_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 30,
+					"Price": 505,
+					"Edibility": 35,
+					"ContextTags":
+					[
+						"color_copper",
+						"food_sweet"
+					]
+				},
+				"ChocolatierContinued_SteelDarkChocolateCoins":
+				{
+					"Name": "Steel Dark Chocolate Coins",
+					"Category": -7,
+					"DisplayName": "{{i18n:SteelDarkChocolateCoins_name}}",
+					"Description": "{{i18n:SteelDarkChocolateCoins_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 31,
+					"Price": 525,
+					"Edibility": 45,
+					"ContextTags":
+					[
+						"color_iron",
+						"food_sweet"
+					]
+				},
 				"ChocolatierContinued_GoldMilkChocolateCoins":
 				{
 					"Name": "Gold Milk Chocolate Coins",
@@ -320,8 +384,8 @@
 					"DisplayName": "{{i18n:GoldMilkChocolateCoins_name}}",
 					"Description": "{{i18n:GoldMilkChocolateCoins_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 18,
-					"Price": 590,
+					"SpriteIndex": 32,
+					"Price": 555,
 					"Edibility": 40,
 					"ContextTags":
 					[
@@ -336,8 +400,8 @@
 					"DisplayName": "{{i18n:IridiumExtraDarkChocolateCoins_name}}",
 					"Description": "{{i18n:IridiumExtraDarkChocolateCoins_description}}",
 					"Texture": "TheBigH.ChocolatierContinued/Objects",
-					"SpriteIndex": 19,
-					"Price": 980,
+					"SpriteIndex": 33,
+					"Price": 905,
 					"Edibility": 50,
 					"ContextTags":
 					[
@@ -981,7 +1045,7 @@
 			"Target": "Data/Objects",
 			"When":
 			{
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 			},
 			"Entries":
 			{
@@ -1064,10 +1128,27 @@
 			"Target": "Data/Objects",
 			"When":
 			{
-				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
 			"Entries":
 			{
+				/* Base Ingredients */
+				"ChocolatierContinued_MintOil": {
+					"Name": "Mint Oil",
+					"Category": -26,
+					"DisplayName": "{{i18n:MintOil_name}}",
+					"Description": "{{i18n:MintOil_description}}",
+					"Texture": "TheBigH.ChocolatierContinued/Objects",
+					"SpriteIndex": 15,
+					"Price": 150,
+					"Edibility": -300,
+					"ContextTags":
+					[
+						"color_sea_green",
+						"dye_strong",
+						"mint_item"
+					]
+				},
 				/* First Round Cooking Items - Cornucopia More Crops - Herbs Dependency */
 				"ChocolatierContinued_DarkChocolateMintFudge":
 				{
@@ -1129,8 +1210,8 @@
 			"Target": "Data/Objects",
 			"When":
 			{
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasFlag |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 			},
 			"Entries":
 			{

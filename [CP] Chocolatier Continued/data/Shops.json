@@ -8,6 +8,28 @@
 			"TargetField": [ "Dwarf", "Items" ],
 			"Entries":
 			{
+				"ChocolatierContinued_CopperWhiteChocolateCoins":
+				{
+					"Id": "ChocolatierContinued_CopperWhiteChocolateCoins (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_CopperWhiteChocolateCoins",
+					"Condition": "PLAYER_HEARTS Current Dwarf 2",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 750,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
+				"ChocolatierContinued_SteelDarkChocolateCoins":
+				{
+					"Id": "ChocolatierContinued_SteelDarkChocolateCoins (Recipe)",
+					"ItemId": "(O)ChocolatierContinued_SteelDarkChocolateCoins",
+					"Condition": "PLAYER_HEARTS Current Dwarf 3",
+					"AvailableStock": 1,
+					"AvailableStockLimit": "Player",
+					"Price": 1000,
+					"IsRecipe": true,
+					"IgnoreShopPriceModifiers": true
+				},
 				"ChocolatierContinued_GoldMilkChocolateCoins":
 				{
 					"Id": "ChocolatierContinued_GoldMilkChocolateCoins (Recipe)",

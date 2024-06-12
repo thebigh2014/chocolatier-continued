@@ -7,6 +7,8 @@
 			"Target": "Data/CookingRecipes",
 			"Entries":
 			{
+				"Copper White Chocolate Coins": "378 1 ChocolatierContinued_WhiteChocolate 1/9999 9999/ChocolatierContinued_CopperWhiteChocolateCoins/null/",
+				"Steel Dark Chocolate Coins": "380 1 ChocolatierContinued_SemiSweetChocolate 1/9999 9999/ChocolatierContinued_SteelDarkChocolateCoins/null/",
 				"Gold Milk Chocolate Coins": "384 1 ChocolatierContinued_MilkChocolate 1/9999 9999/ChocolatierContinued_GoldMilkChocolateCoins/null/",
 				"Iridium Extra Dark Chocolate Coins": "386 1 ChocolatierContinued_BittersweetChocolate 1/9999 9999/ChocolatierContinued_IridiumExtraDarkChocolateCoins/null/",
 				"Dark Chocolate Covered Cherries": "638 1 ChocolatierContinued_CouvertureSemiSweetChocolate 1/9999 9999/ChocolatierContinued_DarkChocolateCoveredCherries/null/",

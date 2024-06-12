@@ -6,7 +6,7 @@
 		{
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Require semi-sweet chocolate in the Chocolate Cake recipe."
+			"Description": "Makes semi-sweet chocolate a requirement in the Chocolate Cake recipe."
 		}
 	},
 	"Changes":

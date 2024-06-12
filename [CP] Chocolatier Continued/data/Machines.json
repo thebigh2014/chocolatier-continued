@@ -3,6 +3,37 @@
 	[
 		/* Vanilla and Cornucopia Artisan Machine Updates */
 		{
+			"LogName": "Load Updated Buildings - Mill",
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+			"TargetField": [ "Mill", "ItemConversions" ],
+			"Entries":
+			{
+				"Cornucopia_CocoaProcessing":
+				{
+					"Id": "Cornucopia_CocoaProcessing",
+					"SourceChest": "Input",
+					"DestinationChest": "Output",
+					"RequiredTags":
+					[
+						"id_o_Cornucopia_CocoaPod"
+					],
+					"ProducedItems":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_CocoaOil",
+							"MinStack": 1
+						},
+						{
+							"ItemId": "(O)ChocolatierContinued_CocoaSolids",
+							"MinStack": 1
+						}
+					],
+					"MaxDailyConversions": -1
+				}
+			}
+		},
+		{
 			"LogName": "Load Updated Machines",
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -54,6 +85,32 @@
 			"LogName": "Load Updated Machines",
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_ButterChurn", "OutputRules" ],
+			"Entries":
+			{
+				"Cornucopia_CocoaButter":
+				{
+					"Id": "Cornucopia_CocoaButter",
+					"Triggers": 
+					[
+						{
+							"RequiredItemId": "(O)ChocolatierContinued_CocoaOil",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)Cornucopia_CocoaButter",
+						}
+					],
+					"MinutesUntilReady": 360,
+				},
+			}
+		},
+		{
+			"LogName": "Load Updated Machines",
+			"Action": "EditData",
+			"Target": "Data/Machines",
 			"TargetField": [ "(BC)Cornucopia_CompactMill", "OutputRules" ],
 			"Entries":
 			{
@@ -63,30 +120,13 @@
 					"Triggers":
 					[
 						{
-							"RequiredItemId": "(O)Cornucopia_CocoaPod",
+							"RequiredItemId": "(O)ChocolatierContinued_CocoaSolids",
 						}
 					],
 					"OutputItem":
 					[
 						{
 							"ItemId": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
-						}
-					],
-					"MinutesUntilReady": 240
-				},
-				"ChocolatierContinued_MatchaPowder":
-				{
-					"Id": "ChocolatierContinued_MatchaPowder",
-					"Triggers":
-					[
-						{
-							"RequiredItemId": "(O)815",
-						}
-					],
-					"OutputItem":
-					[
-						{
-							"ItemId": "(O)ChocolatierContinued_MatchaPowder",
 						}
 					],
 					"MinutesUntilReady": 240
@@ -151,7 +191,24 @@
 						}
 					],
 					"MinutesUntilReady": 2160
-				}
+				},
+				"ChocolatierContinued_MatchaPowder":
+				{
+					"Id": "ChocolatierContinued_MatchaPowder",
+					"Triggers":
+					[
+						{
+							"RequiredItemId": "(O)815",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_MatchaPowder",
+						}
+					],
+					"MinutesUntilReady": 480
+				},
 			}
 		},
 		{
@@ -222,7 +279,7 @@
 					"OutputRules":
 					[
 						{
-							"Id": "ChocolatierContinued_DoubleDutchedCocoaPowder",
+							"Id": "ChocolatierContinued_TripleCocoaPowder",
 							"Triggers":
 							[
 								{
@@ -235,13 +292,13 @@
 								{
 									"CustomData":
 									{
-										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_PotassiumCarbonate",
-										"selph.ExtraMachineConfig.RequirementCount.1": "2",
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_ChocolatierCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementId.2": "(O)ChocolatierContinued_PotassiumCarbonate",
 									},
-									"ItemId": "(O)ChocolatierContinued_DoubleDutchedCocoaPowder",
+									"ItemId": "(O)ChocolatierContinued_TripleCocoaPowder",
 								}
 							],
-							"MinutesUntilReady": 360
+							"MinutesUntilReady": 180
 						},
 						{
 							"Id": "ChocolatierContinued_DutchedCocoaPowder",
@@ -305,7 +362,7 @@
 								{
 									"CustomData":
 									{
-										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_DoubleDutchedCocoaPowder",
+										"selph.ExtraMachineConfig.RequirementId.1": "(O)ChocolatierContinued_TripleCocoaPowder",
 										"selph.ExtraMachineConfig.RequirementCount.1": "1",
 										"selph.ExtraMachineConfig.RequirementId.2": "(O)Cornucopia_CoconutOil",
 										"selph.ExtraMachineConfig.RequirementCount.2": "1",
@@ -404,7 +461,7 @@
 							"Triggers":
 							[
 								{
-									"RequiredItemId": "(O)ChocolatierContinued_DoubleDutchedCocoaPowder",
+									"RequiredItemId": "(O)ChocolatierContinued_TripleCocoaPowder",
 									"RequiredCount": 1,
 								}
 							],
@@ -945,6 +1002,40 @@
 					"MinutesUntilReady": 360
 				},
 			}
+		},
+		{
+			"LogName": "Load Updated Machines - CMC Herbs",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)Cornucopia_Alembic", "OutputRules" ],
+			"When":
+			{
+				"HasFlag |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+			},
+			"Entries":
+			{
+				"ChocolatierContinued_MintOil":
+				{
+					"Id": "ChocolatierContinued_MintOil",
+					"Triggers": 
+					[
+						{
+							"RequiredItemId": "(O)Cornucopia_Mint",
+						}
+					],
+					"OutputItem":
+					[
+						{
+							"ItemId": "(O)ChocolatierContinued_MintOil",
+						}
+					],
+					"MinutesUntilReady": 360,
+				},
+			},
+			"MoveEntries":
+			[
+				{ "Id": "ChocolatierContinued_MintOil", "BeforeId": "Cornucopia_EssentialOil" }
+			]
 		},
 		{
 			"LogName": "Load New Machines - CMC Extended Trees AND Herbs",
