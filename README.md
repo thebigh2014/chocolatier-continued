@@ -8,14 +8,12 @@ I do plan on this mod being cross-compatible with other mods, including making u
 
 ## Prerequisites
 
-- SMAPI 4.x ([Website](https://smapi.io/)), ([Nexus](https://www.nexusmods.com/stardewvalley/mods/2400)), ([Github](https://github.com/Pathoschild/SMAPI/releases))
-- Content Patcher 2.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/1915))
-- Extra Machine Configs 1.3.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/22256)), ([Github](https://github.com/zombifier/My_Stardew_Mods/tree/master/ExtraMachineConfig))
-- Cornucopia - More Crops 1.5.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/19508))
-- Cornucopia - Artisan Machines *(coming soon)*
+- SMAPI ≥ 4.x ([Website](https://smapi.io/)), ([Nexus](https://www.nexusmods.com/stardewvalley/mods/2400)), ([Github](https://github.com/Pathoschild/SMAPI/releases))
+- Content Patcher ≥ 2.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/1915))
+- Extra Machine Configs ≥ 1.4.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/22256)), ([Github](https://github.com/zombifier/My_Stardew_Mods/tree/master/ExtraMachineConfig))
+- Cornucopia - More Crops ≥ 1.5.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/19508))
+- Cornucopia - Artisan Machines ≥ 1.x.x ([Nexus](https://www.nexusmods.com/stardewvalley/mods/24842))
 - Cornucopia - Cooking Recipes *(coming soon – required items will be embedded in my mod until its official release)*
-
-#### ⭐️ My mod _will not be_ released _until after_ Cornucopia - Artisan Machines.
 
 ## So&hellip; What's included?
 
@@ -32,7 +30,8 @@ I do plan on this mod being cross-compatible with other mods, including making u
 ### New Items/Machines
 
 - ✅ Potash (geode drop) and Potassium Carbonate (refined in furnace; for alkalizing cocoa powder)
-- ✅ Dutched and Double-Dutched Cocoa Powder (for making semi-sweet and bittersweet chocolate, respectively)
+- ✅ Cocoa Oil and Cocoa Solids (derived from Cocoa Pods in the mill; used to make cocoa butter (replaces Cornucopia method) and cocoa powder, respectively)
+- ✅ Dutched and Triple Cocoa Powder (for making semi-sweet and bittersweet chocolate, respectively)
 - ✅ Base Chocolate Type: Bittersweet Chocolate (>60% Cocoa)
 - ✅ Candy Coating *(aka Couverture)* Chocolate (in each base chocolate type; will be the primary ingredient for all covered items)
 - ✅ Bonbon Chocolate Press (machine)
@@ -55,7 +54,7 @@ The simple answer is that it makes things a lot easier for everyone. Using a sin
 - 📋 Chocolate Drinks, including Hot Cocoa, Mochas, Milkshakes, etc.
 - 📋 Chocolate Desserts, including Mousse Cups, Cakes, Pies, etc.
 - 📋 More varieties of the previous mod's products
-- 📋 Optional configuration settings to replace vanilla cooking recipes
+- 📋 Optional configuration settings (relating to base-game/vanilla recipes, mod compatibility, etc.)
 
 #### 📍 So&hellip; Why More Machines?
 
@@ -67,7 +66,11 @@ The simple answer is, again, that it makes things a lot easier for everyone. Hav
 
 ## Configuration
 
-*(coming soon)*
+Chocolatier Continued is simple to configure with the help of [Generic Mod Config Menu (GMCM)](https://www.nexusmods.com/stardewvalley/mods/5098).  The list of configurable options is presented below and may be expanded in the future.  **I recommend choosing/changing config options for Chocolatier Continued right after installing it, rather than later.**  Default options are indicated with a ✅.
+
+- **"Replace Chocolate Cake Recipe"**: Makes semi-sweet chocolate a requirement in the Chocolate Cake recipe *(base-game Chocolate Cake has no chocolate requirement)*.
+  - ✅ **Enabled**
+  - Disabled
 
 ## For Mod Authors
 
